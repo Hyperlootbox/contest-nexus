@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7fb;
+  color: #111;
+}
+
+.top {
+  background: #1f2937;
+  color: white;
+  padding: 32px 20px;
+  text-align: center;
+}
+
+.top h1 {
+  margin: 0 0 8px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.controls input,
+.controls select {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.controls input {
+  flex: 1;
+  min-width: 220px;
+}
+
+.problem-list {
+  display: grid;
+  gap: 16px;
+}
+
+.problem-card {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.problem-card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.meta {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.statement {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.solution-btn {
+  padding: 8px 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.solution {
+  margin-top: 12px;
+  padding: 12px;
+  background: #eef4ff;
+  border-radius: 8px;
+  display: none;
+}
+
+.solution.show {
+  display: block;
+}

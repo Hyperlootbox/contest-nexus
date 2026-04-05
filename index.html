@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contest Nexus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Contest Nexus</h1>
+    <p>A searchable archive of contest math problems and solutions.</p>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <input id="search" type="text" placeholder="Search by title, contest, or topic">
+
+      <select id="topicFilter">
+        <option value="all">All topics</option>
+        <option value="Algebra">Algebra</option>
+        <option value="Geometry">Geometry</option>
+        <option value="Number Theory">Number Theory</option>
+        <option value="Combinatorics">Combinatorics</option>
+      </select>
+
+      <select id="difficultyFilter">
+        <option value="all">All difficulties</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+    </section>
+
+    <section id="problemList" class="problem-list"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

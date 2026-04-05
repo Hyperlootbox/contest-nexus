@@ -1,0 +1,48 @@
+[
+  {
+    "id": "amc10a-2023-01",
+    "title": "AMC 10A 2023 Problem 1",
+    "contest": "AMC",
+    "exam": "AMC 10A",
+    "year": 2023,
+    "problemNumber": 1,
+    "field": "Geometry",
+    "topics": ["Triangle Geometry", "Area", "Right Triangles"],
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "choices": ["4", "5", "6", "7", "8"],
+    "answerIndex": 2,
+    "statement": "A triangle has side lengths 3, 4, and 5. What is its area?",
+    "solution": "Since 3, 4, 5 is a right triangle, its area is (1/2) * 3 * 4 = 6."
+  },
+  {
+    "id": "aimei-2021-05",
+    "title": "AIME I 2021 Problem 5",
+    "contest": "AIME",
+    "exam": "AIME I",
+    "year": 2021,
+    "problemNumber": 5,
+    "field": "Number Theory",
+    "topics": ["Divisibility", "Modular Arithmetic", "Parity"],
+    "difficulty": 18,
+    "type": "integer",
+    "answer": "13",
+    "statement": "How many integers from 1 to 100 are divisible by 4 but not divisible by 8?",
+    "solution": "There are 25 multiples of 4 and 12 multiples of 8, so the answer is 25 - 12 = 13."
+  },
+  {
+    "id": "comc-2024-03",
+    "title": "COMC 2024 Problem 3",
+    "contest": "COMC",
+    "exam": "COMC",
+    "year": 2024,
+    "problemNumber": 3,
+    "field": "Combinatorics",
+    "topics": ["Basic Counting", "Casework", "Symmetry"],
+    "difficulty": 11,
+    "type": "short_answer",
+    "answer": "9",
+    "statement": "How many different two letter strings can be formed using the letters A, B, and C if repetition is allowed?",
+    "solution": "There are 3 choices for the first letter and 3 choices for the second letter, so the total is 3 * 3 = 9."
+  }
+]

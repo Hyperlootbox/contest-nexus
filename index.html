@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contest Nexus</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/contrib/auto-render.min.js"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -16,7 +20,15 @@
 
   <main class="container">
     <section class="controls">
-      <input id="search" type="text" placeholder="Search by title">
+      <div class="control-group title-group">
+        <input id="search" type="text" placeholder="Search by title">
+      </div>
+
+      <div class="control-group contest-group">
+        <select id="contestSelect" class="contest-select" aria-label="Search by contest">
+          <option value="">All contests</option>
+        </select>
+      </div>
     </section>
 
     <section class="expression-panel">
@@ -33,10 +45,12 @@
         <input id="topicInput" class="topic-input" type="text" spellcheck="false" autocomplete="off"
           placeholder="Type a topic expression, like: Area OR Triangle Geometry AND Coordinate Geometry">
       </div>
+
       <div id="topicStatus" class="topic-status">
         Precedence: parentheses, AND, OR.
       </div>
-      <div class='topic-top-buttons'>
+
+      <div class="topic-top-buttons">
         <div id="fieldTabs" class="field-tabs"></div>
         <div class="operator-row">
           <button id="andBtn" class="builder-btn" type="button">AND</button>
@@ -51,6 +65,7 @@
       </p>
 
       <div id="topicPills" class="topic-pills"></div>
+
       <div class="difficulty-panel">
         <div class="difficulty-label-row">
           <span class="difficulty-label">Difficulty range</span>
@@ -65,11 +80,14 @@
           <input id="difficultyMax" class="range-input" type="range" min="1" max="60" step="1" value="60">
         </div>
       </div>
+
+      <button id="searchBtn" class="search-btn" type="button">Search</button>
     </section>
 
     <section id="problemList" class="problem-list"></section>
   </main>
 
+  <script src="search.js"></script>
   <script src="main.js"></script>
 </body>
 

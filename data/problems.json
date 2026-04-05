@@ -13,7 +13,7 @@
     "choices": ["4", "5", "6", "7", "8"],
     "answerIndex": 2,
     "statement": "A triangle has side lengths 3, 4, and 5. What is its area?",
-    "solution": "Since 3, 4, 5 is a right triangle, its area is (1/2) * 3 * 4 = 6."
+    "solution": "Since $3, 4, 5$ is a right triangle, its area is $\\frac{1}{2} \\times 3 \\times 4 = 6$."
   },
   {
     "id": "aimei-2021-05",

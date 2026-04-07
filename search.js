@@ -1,6 +1,25 @@
 window.SearchUtils = (() => {
+  const contestAliases = {
+    hmmt: "hmmt",
+    "harvard-mit math tournament": "hmmt",
+    "harvard mit math tournament": "hmmt",
+    pumac: "pumac",
+    "princeton university mathematics competition": "pumac",
+    smt: "smt",
+    "stanford math tournament": "smt",
+    ctmc: "ctmc",
+    "canadian team mathematics contest": "ctmc",
+    fermat: "fermat",
+    "waterloo fermat": "fermat"
+  };
+
   function normalize(value) {
     return String(value || "").trim().toLowerCase();
+  }
+
+  function normalizeContest(value) {
+    let normalizedValue = normalize(value);
+    return contestAliases[normalizedValue] || normalizedValue;
   }
 
   function buildTermCatalog(topicsData) {
@@ -381,24 +400,51 @@ window.SearchUtils = (() => {
   }
 
   function matchesContest(problem, contestQuery) {
-    let query = normalize(contestQuery);
+    let query = normalizeContest(contestQuery);
 
     if (!query) {
       return true;
     }
 
     let possibleContestValues = [
-      problem.exam,
       problem.contest
     ]
       .filter(Boolean)
-      .map(normalize);
+      .map(normalizeContest);
 
     return possibleContestValues.includes(query);
   }
 
   function matchesDifficulty(problem, minDifficulty, maxDifficulty) {
     return problem.difficulty >= minDifficulty && problem.difficulty <= maxDifficulty;
+  }
+
+  function compareProblemsLexicographically(problemA, problemB) {
+    let titleComparison = normalize(problemA.title).localeCompare(
+      normalize(problemB.title),
+      undefined,
+      { sensitivity: "base", numeric: true }
+    );
+
+    if (titleComparison !== 0) {
+      return titleComparison;
+    }
+
+    let contestComparison = normalizeContest(problemA.contest).localeCompare(
+      normalizeContest(problemB.contest),
+      undefined,
+      { sensitivity: "base", numeric: true }
+    );
+
+    if (contestComparison !== 0) {
+      return contestComparison;
+    }
+
+    return normalize(problemA.id).localeCompare(
+      normalize(problemB.id),
+      undefined,
+      { sensitivity: "base", numeric: true }
+    );
   }
 
   function filterProblems(problems, options) {
@@ -419,11 +465,12 @@ window.SearchUtils = (() => {
         : evaluateExpressionForProblem(topicParse.rpn, problem);
 
       return titleMatch && contestMatch && difficultyMatch && topicMatch;
-    });
+    }).sort(compareProblemsLexicographically);
   }
 
   return {
     normalize,
+    normalizeContest,
     buildTermCatalog,
     parseTopicExpression,
     getCurrentFragmentData,

@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problem | Contest Nexus</title>
+    <script>
+        (function () {
+            try {
+                var savedTheme = localStorage.getItem("contestNexusTheme");
+                document.documentElement.dataset.theme = savedTheme === "dark" ? "dark" : "light";
+            } catch (error) {
+                document.documentElement.dataset.theme = "light";
+            }
+        })();
+    </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.css" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.js" crossorigin="anonymous"></script>
@@ -14,14 +24,36 @@
 
 <body class="problem-page">
     <header class="top">
-        <h1>Contest Nexus</h1>
+        <div class="top-inner">
+            <div class="top-copy">
+                <h1>Contest Nexus</h1>
+            </div>
+
+            <button
+                type="button"
+                class="theme-toggle"
+                data-theme-toggle
+                aria-pressed="false"
+                aria-label="Switch to dark mode"
+            >
+                <span class="theme-toggle-track" aria-hidden="true">
+                    <span class="theme-toggle-glow theme-toggle-glow-sun"></span>
+                    <span class="theme-toggle-glow theme-toggle-glow-moon"></span>
+                    <span class="theme-toggle-thumb">
+                        <span class="theme-toggle-glyph theme-toggle-sun">&#9728;</span>
+                        <span class="theme-toggle-glyph theme-toggle-moon">&#9790;</span>
+                    </span>
+                </span>
+            </button>
+        </div>
     </header>
 
     <main class="container">
-        <a class="back-link" href="index.html">← Back to search</a>
+        <a class="back-link" href="index.html">&larr; Back to search</a>
         <section id="problemDetail" class="problem-detail-shell"></section>
     </main>
     <script src="search.js"></script>
+    <script src="theme.js"></script>
     <script src="problem.js"></script>
 </body>
 

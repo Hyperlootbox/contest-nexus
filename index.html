@@ -7,6 +7,13 @@
   <title>Contest Nexus</title>
   <script>
     (function () {
+      var query = window.location.search || "";
+
+      if (/(?:^|[?&])(title|contest|topic|min|max|page)=/.test(query)) {
+        window.location.replace("search.html" + query + window.location.hash);
+        return;
+      }
+
       try {
         var savedTheme = localStorage.getItem("contestNexusTheme");
         document.documentElement.dataset.theme = savedTheme === "dark" ? "dark" : "light";
@@ -15,122 +22,129 @@
       }
     })();
   </script>
+  <link rel="icon" type="image/png" href="images/website/icon.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.css" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.js" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/contrib/auto-render.min.js"
-    crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <header class="top">
-    <div class="top-inner">
-      <div class="top-copy">
-        <h1>Contest Nexus</h1>
-        <p>A searchable archive of contest math problems and solutions.</p>
-      </div>
+<body class="home-page">
+  <header class="home-header">
+    <div class="home-shell home-header-inner">
+      <a class="site-logo-link" href="index.html" aria-label="Contest Nexus home">
+        <img class="site-logo site-logo-home" src="images/website/logo.png" alt="Contest Nexus">
+      </a>
 
-      <button
-        type="button"
-        class="theme-toggle"
-        data-theme-toggle
-        aria-pressed="false"
-        aria-label="Switch to dark mode"
-      >
-        <span class="theme-toggle-track" aria-hidden="true">
-          <span class="theme-toggle-glow theme-toggle-glow-sun"></span>
-          <span class="theme-toggle-glow theme-toggle-glow-moon"></span>
-          <span class="theme-toggle-thumb">
-            <span class="theme-toggle-glyph theme-toggle-sun">&#9728;</span>
-            <span class="theme-toggle-glyph theme-toggle-moon">&#9790;</span>
-          </span>
-        </span>
-      </button>
+      <div class="home-header-actions">
+        <a class="home-nav-btn" href="search.html">Problem Search</a>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="controls">
-      <div class="control-group title-group">
-        <input id="search" type="text" placeholder="Search by title">
+  <main class="home-main-simple">
+    <section class="home-shell home-hero-simple">
+      <div class="home-hero-copy-simple">
+        <p class="home-kicker">Contest problem archive</p>
+        <h1 class="home-title-simple">Search your problem collection from one clean page.</h1>
+        <p class="home-intro-simple">
+          Contest Nexus currently gives you a fast problem search page with contest filtering, topic-expression search,
+          difficulty range filtering, pagination, and full problem pages with solutions and diagrams.
+        </p>
+
+        <div class="home-primary-actions">
+          <a class="home-action-btn home-action-btn-primary" href="search.html">Open Problem Search</a>
+        </div>
       </div>
 
-      <div class="control-group contest-group">
-        <div class="contest-input-wrap">
-          <div id="contestSuggestions" class="topic-suggestions contest-suggestions hidden"></div>
-          <input
-            id="contestInput"
-            class="contest-input"
-            type="text"
-            spellcheck="false"
-            autocomplete="off"
-            placeholder="All contests"
-            aria-label="Search by contest"
-          >
+      <aside class="home-summary-card">
+        <h2>Current features</h2>
+        <ul class="home-summary-list">
+          <li>Search by title and contest</li>
+          <li>Autocomplete for contests and topics</li>
+          <li>Topic logic with <code>AND</code>, <code>OR</code>, and parentheses</li>
+          <li>Difficulty slider from 1 to 60</li>
+          <li>Paginated results and smooth page transitions</li>
+          <li>Problem pages with answers, solutions, and images</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="home-shell home-section-simple">
+      <div class="home-section-heading-simple">
+        <p class="home-kicker">Quick links</p>
+        <h2>Jump straight into the parts of the site you can use right now.</h2>
+      </div>
+
+      <div class="home-link-grid">
+        <a class="home-link-card" href="search.html">
+          <span class="home-link-label">Main page</span>
+          <strong>Problem Search</strong>
+          <p>Open the full search interface with title, contest, topic, and difficulty filters.</p>
+        </a>
+
+        <a class="home-link-card" href="search.html?contest=Fermat">
+          <span class="home-link-label">Contest shortcut</span>
+          <strong>Fermat Archive</strong>
+          <p>Jump directly to Fermat problems and start browsing from there.</p>
+        </a>
+
+        <a class="home-link-card" href="search.html?topic=All%20Geometry">
+          <span class="home-link-label">Topic shortcut</span>
+          <strong>All Geometry</strong>
+          <p>Start with the field-wide geometry filter and refine it from the search page.</p>
+        </a>
+
+        <a class="home-link-card" href="search.html?min=1&max=15">
+          <span class="home-link-label">Difficulty shortcut</span>
+          <strong>Easier Practice</strong>
+          <p>Go straight to the easier end of the archive for warmups and routine contest problems.</p>
+        </a>
+
+        <a class="home-link-card" href="search.html?min=31&max=60">
+          <span class="home-link-label">Difficulty shortcut</span>
+          <strong>Harder Practice</strong>
+          <p>Filter for very hard contest and olympiad-style problems in one click.</p>
+        </a>
+
+        <div class="home-link-card home-link-card-static">
+          <span class="home-link-label">What this site does</span>
+          <strong>Search, filter, and study</strong>
+          <p>Everything on the site currently revolves around helping you find a problem and open its full solution page quickly.</p>
         </div>
       </div>
     </section>
 
-    <section class="expression-panel">
-      <div class="expression-header">
-        <h2>Topic expression</h2>
-        <div class="expression-actions">
-          <button id="backspaceBtn" class="secondary-btn" type="button">Backspace</button>
-          <button id="clearTopicsBtn" class="clear-btn" type="button">Clear</button>
-        </div>
-      </div>
-
-      <div class="topic-input-wrap">
-        <div id="topicSuggestions" class="topic-suggestions hidden"></div>
-        <input id="topicInput" class="topic-input" type="text" spellcheck="false" autocomplete="off"
-          placeholder="Type a topic expression, like: Area OR Triangle Geometry AND Coordinate Geometry">
-      </div>
-
-      <div id="topicStatus" class="topic-status">
-        Precedence: parentheses, AND, OR.
-      </div>
-
-      <div class="topic-top-buttons">
-        <div id="fieldTabs" class="field-tabs"></div>
-        <div class="operator-row">
-          <button id="andBtn" class="builder-btn" type="button">AND</button>
-          <button id="orBtn" class="builder-btn" type="button">OR</button>
-          <button id="openParenBtn" class="builder-btn" type="button">(</button>
-          <button id="closeParenBtn" class="builder-btn" type="button">)</button>
-        </div>
-      </div>
-
-      <p class="topic-help">
-        Click topics to insert them at the cursor position in the topic expression box.
-      </p>
-
-      <div id="topicPills" class="topic-pills"></div>
-
-      <div class="difficulty-panel">
-        <div class="difficulty-label-row">
-          <span class="difficulty-label">Difficulty range</span>
-          <span id="difficultyRangeText" class="difficulty-range-text">1 to 60</span>
+    <section class="home-shell home-section-simple">
+      <div class="home-note-panel">
+        <div>
+          <p class="home-kicker">Start here</p>
+          <h2>The main topic searching page is the center of the site.</h2>
+          <p>
+            If someone lands here for the first time, the best next step is almost always the search page.
+          </p>
         </div>
 
-        <div class="dual-range">
-          <div class="dual-range-track"></div>
-          <div id="dualRangeFill" class="dual-range-fill"></div>
-
-          <input id="difficultyMin" class="range-input" type="range" min="1" max="60" step="1" value="1">
-          <input id="difficultyMax" class="range-input" type="range" min="1" max="60" step="1" value="60">
-        </div>
+        <a class="home-action-btn home-action-btn-primary" href="search.html">Go to Search</a>
       </div>
-
-      <button id="searchBtn" class="search-btn" type="button">Search</button>
     </section>
-
-    <section id="problemList" class="problem-list"></section>
-    <nav id="paginationNav" class="pagination-nav hidden" aria-label="Problem pages"></nav>
   </main>
 
-  <script src="search.js"></script>
+  <button
+    type="button"
+    class="theme-toggle"
+    data-theme-toggle
+    aria-pressed="false"
+    aria-label="Switch to dark mode"
+  >
+    <span class="theme-toggle-track" aria-hidden="true">
+      <span class="theme-toggle-glow theme-toggle-glow-sun"></span>
+      <span class="theme-toggle-glow theme-toggle-glow-moon"></span>
+      <span class="theme-toggle-thumb">
+        <span class="theme-toggle-glyph theme-toggle-sun">&#9728;</span>
+        <span class="theme-toggle-glyph theme-toggle-moon">&#9790;</span>
+      </span>
+    </span>
+  </button>
+
   <script src="theme.js"></script>
-  <script src="main.js"></script>
 </body>
 
 </html>

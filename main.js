@@ -115,7 +115,6 @@ const paginationNav = document.getElementById("paginationNav");
 const topicStatus = document.getElementById("topicStatus");
 
 const clearTopicsBtn = document.getElementById("clearTopicsBtn");
-const backspaceBtn = document.getElementById("backspaceBtn");
 const andBtn = document.getElementById("andBtn");
 const orBtn = document.getElementById("orBtn");
 const openParenBtn = document.getElementById("openParenBtn");
@@ -908,8 +907,21 @@ function refreshTopicExpression() {
   renderSuggestions();
 }
 
+function scrollResultsIntoView() {
+  let behavior = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ? "auto"
+    : "smooth";
+
+  window.requestAnimationFrame(() => {
+    problemList.scrollIntoView({
+      behavior,
+      block: "start"
+    });
+  });
+}
+
 function applyFilters(options = {}) {
-  let { resetPage = true, animate = false, direction = "forward" } = options;
+  let { resetPage = true, animate = false, direction = "forward", scrollToResults = false } = options;
 
   appliedFilters = {
     titleQuery: searchInput.value,
@@ -927,6 +939,10 @@ function applyFilters(options = {}) {
   appliedTopicParse = { ...currentTopicParse };
   syncUrlToAppliedFilters();
   renderProblems({ animate, direction });
+
+  if (scrollToResults) {
+    scrollResultsIntoView();
+  }
 }
 
 function refreshAll() {
@@ -1107,7 +1123,7 @@ contestSuggestions.addEventListener("mousedown", event => {
 searchInput.addEventListener("keydown", event => {
   if (event.key === "Enter") {
     event.preventDefault();
-    applyFilters();
+    applyFilters({ scrollToResults: true });
   }
 });
 
@@ -1181,7 +1197,7 @@ contestInput.addEventListener("keydown", event => {
   if (event.key === "Enter") {
     event.preventDefault();
     hideContestSuggestions();
-    applyFilters();
+    applyFilters({ scrollToResults: true });
     return;
   }
 
@@ -1243,7 +1259,7 @@ topicInput.addEventListener("keydown", event => {
   if (event.key === "Enter") {
     event.preventDefault();
     hideSuggestions();
-    applyFilters();
+    applyFilters({ scrollToResults: true });
     return;
   }
 
@@ -1274,7 +1290,6 @@ topicInput.addEventListener("keydown", event => {
 });
 
 clearTopicsBtn.addEventListener("click", clearExpression);
-backspaceBtn.addEventListener("click", backspaceExpression);
 andBtn.addEventListener("click", () => insertBinaryOperator("AND"));
 orBtn.addEventListener("click", () => insertBinaryOperator("OR"));
 openParenBtn.addEventListener("click", insertOpenParen);
@@ -1302,6 +1317,8 @@ difficultyMaxInput.addEventListener("input", () => {
   updateDifficultyUi();
 });
 
-searchBtn.addEventListener("click", applyFilters);
+searchBtn.addEventListener("click", () => {
+  applyFilters({ scrollToResults: true });
+});
 
 loadData();

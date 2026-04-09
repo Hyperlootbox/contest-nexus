@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search | Contest Nexus</title>
+  <script>
+    (function () {
+      try {
+        var savedTheme = localStorage.getItem("contestNexusTheme");
+        document.documentElement.dataset.theme = savedTheme === "dark" ? "dark" : "light";
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+  <link rel="icon" type="image/png" href="images/website/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/contrib/auto-render.min.js"
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="search-page">
+  <header class="top">
+    <div class="top-inner">
+      <a class="site-logo-link" href="index.html" aria-label="Contest Nexus home">
+        <img class="site-logo" src="images/website/logo.png" alt="Contest Nexus">
+      </a>
+
+      <div class="page-header-copy">
+        <p class="page-header-eyebrow">Problem Search</p>
+        <p class="page-header-description">Search by title, contest, topics, and difficulty.</p>
+      </div>
+
+      <button
+        type="button"
+        class="theme-toggle"
+        data-theme-toggle
+        aria-pressed="false"
+        aria-label="Switch to dark mode"
+      >
+        <span class="theme-toggle-track" aria-hidden="true">
+          <span class="theme-toggle-glow theme-toggle-glow-sun"></span>
+          <span class="theme-toggle-glow theme-toggle-glow-moon"></span>
+          <span class="theme-toggle-thumb">
+            <span class="theme-toggle-glyph theme-toggle-sun">&#9728;</span>
+            <span class="theme-toggle-glyph theme-toggle-moon">&#9790;</span>
+          </span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div class="control-group title-group">
+        <input id="search" type="text" placeholder="Search by title">
+      </div>
+
+      <div class="control-group contest-group">
+        <div class="contest-input-wrap">
+          <div id="contestSuggestions" class="topic-suggestions contest-suggestions hidden"></div>
+          <input
+            id="contestInput"
+            class="contest-input"
+            type="text"
+            spellcheck="false"
+            autocomplete="off"
+            placeholder="All contests"
+            aria-label="Search by contest"
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="expression-panel">
+      <div class="expression-header">
+        <h2>Topic expression</h2>
+        <div class="expression-actions">
+          <button id="clearTopicsBtn" class="clear-btn" type="button">Clear</button>
+        </div>
+      </div>
+
+      <div class="topic-input-wrap">
+        <div id="topicSuggestions" class="topic-suggestions hidden"></div>
+        <input id="topicInput" class="topic-input" type="text" spellcheck="false" autocomplete="off"
+          placeholder="Type a topic expression, like: Area OR Triangle Geometry AND Coordinate Geometry">
+      </div>
+
+      <div id="topicStatus" class="topic-status">
+        Precedence: parentheses, AND, OR.
+      </div>
+
+      <div class="topic-top-buttons">
+        <div id="fieldTabs" class="field-tabs"></div>
+        <div class="operator-row">
+          <button id="andBtn" class="builder-btn" type="button">AND</button>
+          <button id="orBtn" class="builder-btn" type="button">OR</button>
+          <button id="openParenBtn" class="builder-btn" type="button">(</button>
+          <button id="closeParenBtn" class="builder-btn" type="button">)</button>
+        </div>
+      </div>
+
+      <p class="topic-help">
+        Click topics to insert them at the cursor position in the topic expression box.
+      </p>
+
+      <div id="topicPills" class="topic-pills"></div>
+
+      <div class="difficulty-panel">
+        <div class="difficulty-label-row">
+          <span class="difficulty-label">Difficulty range</span>
+          <span id="difficultyRangeText" class="difficulty-range-text">1 to 60</span>
+        </div>
+
+        <div class="dual-range">
+          <div class="dual-range-track"></div>
+          <div id="dualRangeFill" class="dual-range-fill"></div>
+
+          <input id="difficultyMin" class="range-input" type="range" min="1" max="60" step="1" value="1">
+          <input id="difficultyMax" class="range-input" type="range" min="1" max="60" step="1" value="60">
+        </div>
+      </div>
+
+      <button id="searchBtn" class="search-btn" type="button">Search</button>
+    </section>
+
+    <section id="problemList" class="problem-list"></section>
+    <nav id="paginationNav" class="pagination-nav hidden" aria-label="Problem pages"></nav>
+  </main>
+
+  <script src="search.js"></script>
+  <script src="theme.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

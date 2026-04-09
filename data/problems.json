@@ -13,11 +13,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "15 dollars",
-      "45 dollars",
-      "60 dollars",
-      "75 dollars",
-      "120 dollars"
+      "$15\\text{ dollars}$",
+      "$45\\text{ dollars}$",
+      "$60\\text{ dollars}$",
+      "$75\\text{ dollars}$",
+      "$120\\text{ dollars}$"
     ],
     "answerIndex": 2,
     "statement": "If $2$ F-MAT calculators cost $30$ dollars in total, how much do $4$ calculators cost?",
@@ -39,11 +39,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "101",
-      "1",
-      "100",
-      "0",
-      "10200"
+      "$101$",
+      "$1$",
+      "$100$",
+      "$0$",
+      "$10200$"
     ],
     "answerIndex": 0,
     "statement": "Evaluate $\\dfrac{101^2-101}{100}$.",
@@ -64,11 +64,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "54",
-      "48",
-      "36",
-      "42",
-      "60"
+      "$54$",
+      "$48$",
+      "$36$",
+      "$42$",
+      "$60$"
     ],
     "answerIndex": 2,
     "statement": "A math club had $24$ members in its first year. In the second year, its membership increased by $50\\%$. How many members did it have in the second year?",
@@ -90,11 +90,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "5",
-      "8",
-      "16",
-      "24"
+      "$3$",
+      "$5$",
+      "$8$",
+      "$16$",
+      "$24$"
     ],
     "answerIndex": 0,
     "statement": "Seven adjacent squares are filled with numbers. The first three are $3,5,16$, and the sum of every three consecutive squares is $24$. What number is in the square marked with a question mark?",
@@ -122,11 +122,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "12",
-      "24",
-      "8",
-      "16",
-      "3"
+      "$12$",
+      "$24$",
+      "$8$",
+      "$16$",
+      "$3$"
     ],
     "answerIndex": 3,
     "statement": "The equation $4^3 = 4+4+4+\\cdots+4$ has some number of $4$s on the right side. How many are there?",
@@ -148,11 +148,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "0.50 dollars",
-      "1.33 dollars",
-      "4.00 dollars",
-      "2.67 dollars",
-      "2.00 dollars"
+      "$0.50\\text{ dollars}$",
+      "$1.33\\text{ dollars}$",
+      "$4.00\\text{ dollars}$",
+      "$2.67\\text{ dollars}$",
+      "$2.00\\text{ dollars}$"
     ],
     "answerIndex": 4,
     "statement": "Fermat buys $8$ bananas and $4$ apples. Each banana costs half as much as each apple, and the total cost is $16$ dollars. What is the cost of one apple?",
@@ -173,11 +173,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "9",
-      "12",
-      "15",
-      "18",
-      "21"
+      "$9$",
+      "$12$",
+      "$15$",
+      "$18$",
+      "$21$"
     ],
     "answerIndex": 3,
     "statement": "A bar graph shows the numbers of robins, cardinals, and blue jays observed. The bar heights are in the ratio $6:3:1$, and the total number of birds is $30$. How many robins were seen?",
@@ -205,11 +205,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "-1",
-      "0",
-      "1",
-      "2",
-      "3"
+      "$-1$",
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$"
     ],
     "answerIndex": 1,
     "statement": "Suppose $a,b,c,d$ are four consecutive positive integers with $a<b<c<d$. Find $(a+d)-(b+c)$.",
@@ -231,11 +231,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "60",
-      "70",
-      "80",
-      "90",
-      "100"
+      "$60$",
+      "$70$",
+      "$80$",
+      "$90$",
+      "$100$"
     ],
     "answerIndex": 3,
     "statement": "A square has area $10$. Each side length is multiplied by the same positive integer to form a new square. Which of the following could be the area of the new square?",
@@ -256,11 +256,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{1}{64}\\)",
-      "\\(\\frac{1}{6}\\)",
-      "\\(\\frac{1}{48}\\)",
-      "\\(\\frac{1}{36}\\)",
-      "\\(\\frac{1}{8}\\)"
+      "$\\frac{1}{64}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{48}$",
+      "$\\frac{1}{36}$",
+      "$\\frac{1}{8}$"
     ],
     "answerIndex": 4,
     "statement": "A fair $6$-sided die and a fair $8$-sided die are each rolled once. What is the probability that the same number appears on both dice?",
@@ -281,11 +281,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "1.5 hours",
-      "2 hours",
-      "4 hours",
-      "6 hours",
-      "8 hours"
+      "$1.5\\text{ hours}$",
+      "$2\\text{ hours}$",
+      "$4\\text{ hours}$",
+      "$6\\text{ hours}$",
+      "$8\\text{ hours}$"
     ],
     "answerIndex": 3,
     "statement": "Maria drove $500$ km in $8$ hours. Andrea flew $1500$ km at four times Maria's average speed. How long was Andrea's flight?",
@@ -306,11 +306,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "97",
-      "98",
-      "94",
-      "32",
-      "33"
+      "$97$",
+      "$98$",
+      "$94$",
+      "$32$",
+      "$33$"
     ],
     "answerIndex": 3,
     "statement": "How many positive integers less than $100$ can be written as the sum of three consecutive positive integers?",
@@ -334,11 +334,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "192",
-      "176",
-      "144",
-      "208",
-      "128"
+      "$192$",
+      "$176$",
+      "$144$",
+      "$208$",
+      "$128$"
     ],
     "answerIndex": 1,
     "statement": "In rectangle $ABCD$, points $E$ and $F$ lie on the top and bottom edges so that $BF=ED=DC=AB=8$ and $EF=10$. Find the area of the rectangle.",
@@ -366,11 +366,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
+      "$\\text{Monday}$",
+      "$\\text{Tuesday}$",
+      "$\\text{Wednesday}$",
+      "$\\text{Thursday}$",
+      "$\\text{Friday}$"
     ],
     "answerIndex": 1,
     "statement": "Ava painted one picture each day for $31$ consecutive days, numbering them $1$ to $31$. Exactly three of the pictures painted on Sundays have even numbers. On what day was picture $25$ painted?",
@@ -392,11 +392,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$",
+      "$10$"
     ],
     "answerIndex": 3,
     "statement": "How many ordered pairs of positive integers $(x,y)$ satisfy the ratio equation $x:4 = 9:y$?",
@@ -451,11 +451,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "10",
-      "12",
-      "14",
-      "16"
+      "$8$",
+      "$10$",
+      "$12$",
+      "$14$",
+      "$16$"
     ],
     "answerIndex": 3,
     "statement": "Three given nets are folded into cubes. The cubes are arranged so that their top faces are $1$, $2$, and $3$ in some order. What is the sum of the three bottom-face numbers?",
@@ -509,11 +509,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{1}{14}\\)",
-      "\\(\\frac{2}{39}\\)",
-      "\\(\\frac{28}{351}\\)",
-      "\\(\\frac{1}{13}\\)",
-      "\\(\\frac{4}{39}\\)"
+      "$\\frac{1}{14}$",
+      "$\\frac{2}{39}$",
+      "$\\frac{28}{351}$",
+      "$\\frac{1}{13}$",
+      "$\\frac{4}{39}$"
     ],
     "answerIndex": 1,
     "statement": "A bag contains all $28$ colour-pattern combinations formed from $7$ colours and $4$ patterns. Three balls are removed without replacement. What is the probability that, among the last two removed, one matches the first ball's colour and the other matches the first ball's pattern?",
@@ -534,11 +534,11 @@
     "difficulty": 9,
     "type": "multiple_choice",
     "choices": [
-      "-1",
-      "0",
-      "5",
-      "10",
-      "13"
+      "$-1$",
+      "$0$",
+      "$5$",
+      "$10$",
+      "$13$"
     ],
     "answerIndex": 2,
     "statement": "A $3\\times 4$ grid is filled with integers so that every row and every column has the same sum. Some entries are visible, including $c$ and $d$. Find $c-d$.",
@@ -663,11 +663,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "-8",
-      "10",
-      "0",
-      "12",
-      "2"
+      "$-8$",
+      "$10$",
+      "$0$",
+      "$12$",
+      "$2$"
     ],
     "answerIndex": 3,
     "statement": "Evaluate $2-0+2\\times 5$.",
@@ -688,11 +688,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "400",
-      "600",
-      "700",
-      "500",
-      "800"
+      "$400$",
+      "$600$",
+      "$700$",
+      "$500$",
+      "$800$"
     ],
     "answerIndex": 1,
     "statement": "A graph shows what percentage of students chose each day of the week as their favourite day. If $3000$ students were surveyed, how many chose Friday?",
@@ -720,11 +720,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "10",
-      "7",
-      "13",
-      "14",
-      "11"
+      "$10$",
+      "$7$",
+      "$13$",
+      "$14$",
+      "$11$"
     ],
     "answerIndex": 4,
     "statement": "How many integers $x$ satisfy $2<x<14$?",
@@ -746,11 +746,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "10 dollars",
-      "12 dollars",
-      "14 dollars",
-      "16 dollars",
-      "18 dollars"
+      "$10\\text{ dollars}$",
+      "$12\\text{ dollars}$",
+      "$14\\text{ dollars}$",
+      "$16\\text{ dollars}$",
+      "$18\\text{ dollars}$"
     ],
     "answerIndex": 1,
     "statement": "Rachel, Christophe, and Alfonzo are paid a total of $50$ dollars. Alfonzo gets $14$ dollars, and Rachel gets twice as much as Christophe. How much does Christophe get?",
@@ -774,11 +774,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "8",
-      "4",
-      "7",
-      "6"
+      "$5$",
+      "$8$",
+      "$4$",
+      "$7$",
+      "$6$"
     ],
     "answerIndex": 2,
     "statement": "Points $P,Q,R,S$ lie on grid intersections of a $5\\times 5$ array of unit squares. Find the area of rectangle $PQRS$.",
@@ -806,11 +806,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "2025",
-      "100",
-      "9",
-      "46",
-      "91"
+      "$2025$",
+      "$100$",
+      "$9$",
+      "$46$",
+      "$91$"
     ],
     "answerIndex": 4,
     "statement": "The year $2025$ is a perfect square. In $n$ years, the year will again be a perfect square. What is the smallest possible value of $n$?",
@@ -832,11 +832,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "16",
-      "11",
-      "13",
-      "7",
-      "20"
+      "$16$",
+      "$11$",
+      "$13$",
+      "$7$",
+      "$20$"
     ],
     "answerIndex": 2,
     "statement": "A target has three scoring regions worth $10$, $5$, and $1$ points. Three arrows hit the target. Which total score cannot occur?",
@@ -864,11 +864,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "15",
-      "21",
-      "24",
-      "18",
-      "12"
+      "$15$",
+      "$21$",
+      "$24$",
+      "$18$",
+      "$12$"
     ],
     "answerIndex": 1,
     "statement": "The average of $15$ integers is $18$. The average of $5$ of them is $12$. What is the average of the other $10$ integers?",
@@ -890,11 +890,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "60",
-      "9",
-      "72",
-      "6"
+      "$8$",
+      "$60$",
+      "$9$",
+      "$72$",
+      "$6$"
     ],
     "answerIndex": 4,
     "statement": "If $x^2-y^2=72$ and $x-y=12$, find $x+y$.",
@@ -916,11 +916,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "-22",
-      "-10",
-      "-14",
-      "-26",
-      "-18"
+      "$-22$",
+      "$-10$",
+      "$-14$",
+      "$-26$",
+      "$-18$"
     ],
     "answerIndex": 0,
     "statement": "A class trip has $186$ students split into exactly $50$ groups. Each group has either $3$ or $4$ students. If there are $m$ groups of $3$ and $n$ groups of $4$, find $m-n$.",
@@ -942,11 +942,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "6",
-      "7",
-      "8",
-      "9"
+      "$5$",
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$"
     ],
     "answerIndex": 0,
     "statement": "Twelve lightbulbs start off. Angie toggles every $2$nd bulb, Bilal toggles every $3$rd bulb, and Chenxhui toggles every $4$th bulb. How many bulbs are on at the end?",
@@ -968,11 +968,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "$\\text{A}$",
+      "$\\text{B}$",
+      "$\\text{C}$",
+      "$\\text{D}$",
+      "$\\text{E}$"
     ],
     "answerIndex": 0,
     "statement": "Five plotted points show money earned versus time worked for five employees. Each employee is paid at a constant hourly rate. Which employee is paid the most per hour?",
@@ -1001,11 +1001,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "6",
-      "8",
-      "10",
-      "12",
-      "14"
+      "$6$",
+      "$8$",
+      "$10$",
+      "$12$",
+      "$14$"
     ],
     "answerIndex": 1,
     "statement": "Suppose $(x+2)(x+t)=x^2+bx+12$ for all real $x$. Find $b$.",
@@ -1026,11 +1026,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "9:15 a.m.",
-      "9:10 a.m.",
-      "9:16 a.m.",
-      "9:04 a.m.",
-      "9:18 a.m."
+      "$\\text{9:15 a.m.}$",
+      "$\\text{9:10 a.m.}$",
+      "$\\text{9:16 a.m.}$",
+      "$\\text{9:04 a.m.}$",
+      "$\\text{9:18 a.m.}$"
     ],
     "answerIndex": 4,
     "statement": "A substance doubles in volume every minute. It is first placed in an empty container at $9{:}00$ a.m., and the container is full at $9{:}20$ a.m. At what time was the container one-quarter full?",
@@ -1052,11 +1052,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "7",
-      "1",
-      "9",
-      "3"
+      "$2$",
+      "$7$",
+      "$1$",
+      "$9$",
+      "$3$"
     ],
     "answerIndex": 3,
     "statement": "Find the hundreds digit of the smallest five-digit positive integer divisible by $12$, $13$, $14$, and $15$.",
@@ -1080,11 +1080,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "50",
-      "55",
-      "60",
-      "65",
-      "70"
+      "$50$",
+      "$55$",
+      "$60$",
+      "$65$",
+      "$70$"
     ],
     "answerIndex": 4,
     "statement": "Rectangle $ABCD$ has area $224$. Semicircles with diameters $AD$ and $BC$ are drawn inside the rectangle. The shortest distance between the two semicircles is $2$. Which choice is closest to the shaded area?",
@@ -1138,11 +1138,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "90 m",
-      "100 m",
-      "110 m",
-      "120 m",
-      "130 m"
+      "$90\\text{ m}$",
+      "$100\\text{ m}$",
+      "$110\\text{ m}$",
+      "$120\\text{ m}$",
+      "$130\\text{ m}$"
     ],
     "answerIndex": 1,
     "statement": "In a $2000$ m race, Arturo finishes $200$ m ahead of Morgan and $290$ m ahead of Henri. If Morgan and Henri keep running at the same speeds, how far ahead of Henri will Morgan be when Morgan finishes?",
@@ -1165,11 +1165,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "8"
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$",
+      "$8$"
     ],
     "answerIndex": 2,
     "statement": "The lines $y=mx+7$, $y=2$, $x=0$, and $y=0$ form a trapezoid of area $3$, where $m>0$. Find $m$.",
@@ -1192,11 +1192,11 @@
     "difficulty": 11,
     "type": "multiple_choice",
     "choices": [
-      "17",
-      "27",
-      "37",
-      "47",
-      "57"
+      "$17$",
+      "$27$",
+      "$37$",
+      "$47$",
+      "$57$"
     ],
     "answerIndex": 1,
     "statement": "Let $N$ be the number of integers $m$ with $1<m<100000$ such that the product of the digits of $m$ is $200$. What are the rightmost two digits of $N$?",
@@ -1317,11 +1317,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "6"
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$",
+      "$6$"
     ],
     "answerIndex": 3,
     "statement": "Evaluate $3\\left(\\frac{5}{3}-\\frac{1}{3}\\right)$.",
@@ -1342,11 +1342,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "3",
-      "4",
-      "2",
-      "5"
+      "$1$",
+      "$3$",
+      "$4$",
+      "$2$",
+      "$5$"
     ],
     "answerIndex": 2,
     "statement": "If $x=2$, what is the value of $4x^2-3x^2$?",
@@ -1367,11 +1367,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "4",
-      "7",
-      "6",
-      "5",
-      "8"
+      "$4$",
+      "$7$",
+      "$6$",
+      "$5$",
+      "$8$"
     ],
     "answerIndex": 4,
     "statement": "How many $1\\times 1\\times 1$ cubes are needed to build a solid $2\\times 2\\times 2$ cube?",
@@ -1392,11 +1392,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "11",
-      "7",
-      "17",
-      "20",
-      "14"
+      "$11$",
+      "$7$",
+      "$17$",
+      "$20$",
+      "$14$"
     ],
     "answerIndex": 0,
     "statement": "Shuxin starts with $10$ red candies, $7$ yellow candies, and $3$ blue candies. After eating some candies, the numbers of red, yellow, and blue candies remaining are all equal. What is the smallest number of candies Shuxin could have eaten?",
@@ -1451,11 +1451,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "4",
-      "6",
-      "5",
-      "2"
+      "$3$",
+      "$4$",
+      "$6$",
+      "$5$",
+      "$2$"
     ],
     "answerIndex": 1,
     "statement": "How many integers are greater than $\\sqrt{15}$ and less than $\\sqrt{50}$?",
@@ -1477,10 +1477,10 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "-2",
-      "6",
-      "-6",
+      "$2$",
+      "$-2$",
+      "$6$",
+      "$-6$",
       "$\\frac{1}{2}$"
     ],
     "answerIndex": 0,
@@ -1502,11 +1502,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "1000",
-      "60",
-      "2000",
-      "300",
-      "102"
+      "$1000$",
+      "$60$",
+      "$2000$",
+      "$300$",
+      "$102$"
     ],
     "answerIndex": 1,
     "statement": "If $10^n=1000^{20}$, what is $n$?",
@@ -1585,11 +1585,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "4",
-      "8",
-      "6",
-      "7"
+      "$5$",
+      "$4$",
+      "$8$",
+      "$6$",
+      "$7$"
     ],
     "answerIndex": 3,
     "statement": "Three lines can have either $1$ intersection point or $3$ intersection points, as shown in the figures. What is the greatest possible number of intersection points determined by $4$ lines?",
@@ -1617,11 +1617,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "6",
-      "10",
-      "17",
-      "21"
+      "$5$",
+      "$6$",
+      "$10$",
+      "$17$",
+      "$21$"
     ],
     "answerIndex": 0,
     "statement": "The numbers $5,6,10,17,21$ are rearranged so that the sum of the first three numbers equals the sum of the last three numbers. Which number is in the middle position?",
@@ -1643,11 +1643,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$"
     ],
     "answerIndex": 4,
     "statement": "For integers $m$ and $n$, the product $(x+m)(x+n)$ expands to a quadratic with constant term $-12$. Which of the following cannot be a value of $m$?",
@@ -1703,11 +1703,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "Getting her coffee",
-      "Having a shower",
-      "Doing some yoga",
-      "Going for a walk",
-      "Calling her granddaughter"
+      "$\\text{Getting her coffee}$",
+      "$\\text{Having a shower}$",
+      "$\\text{Doing some yoga}$",
+      "$\\text{Going for a walk}$",
+      "$\\text{Calling her granddaughter}$"
     ],
     "answerIndex": 2,
     "statement": "Anila's grandmother follows the same daily routine every day. If she woke up $5$ minutes ago, what will she be doing in $197$ hours?",
@@ -1730,11 +1730,11 @@
     "difficulty": 12,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "4",
-      "6",
-      "8",
-      "9"
+      "$3$",
+      "$4$",
+      "$6$",
+      "$8$",
+      "$9$"
     ],
     "answerIndex": 2,
     "statement": "The integers $1$ through $9$ are placed, one per square, into a $3\\times 3$ grid. The products of the rows are $56,135,48$ and the products of the columns are $21,108,160$. The entry in the bottom-middle square is labeled $N$. Find $N$.",
@@ -1762,11 +1762,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "a",
-      "b",
-      "c",
-      "d",
-      "e"
+      "$a$",
+      "$b$",
+      "$c$",
+      "$d$",
+      "$e$"
     ],
     "answerIndex": 2,
     "statement": "Positive integers $a,b,c,d,e$ satisfy\n$$b+d>a+d, \\quad c+e>b+e, \\quad b+d=c, \\quad a+c=b+e.$$ \nWhich variable is greatest?",
@@ -1788,11 +1788,11 @@
     "difficulty": 11,
     "type": "multiple_choice",
     "choices": [
-      "-36",
-      "-12",
-      "-32",
-      "-120",
-      "32"
+      "$-36$",
+      "$-12$",
+      "$-32$",
+      "$-120$",
+      "$32$"
     ],
     "answerIndex": 0,
     "statement": "Real numbers $x$ and $y$ satisfy\n$$3x+2y=6, \\qquad 9x^2+4y^2=468.$$ \nFind $xy$.",
@@ -1815,11 +1815,11 @@
     "difficulty": 11,
     "type": "multiple_choice",
     "choices": [
-      "0.97",
-      "0.95",
-      "0.94",
-      "0.96",
-      "0.98"
+      "$0.97$",
+      "$0.95$",
+      "$0.94$",
+      "$0.96$",
+      "$0.98$"
     ],
     "answerIndex": 1,
     "statement": "Three standard six-sided dice are rolled. If $S$ is the sum of the three results, which choice is closest to the probability that $S>5$?",
@@ -1985,11 +1985,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "0.303",
-      "0.6",
-      "3.3",
-      "0.33",
-      "0.06"
+      "$0.303$",
+      "$0.6$",
+      "$3.3$",
+      "$0.33$",
+      "$0.06$"
     ],
     "answerIndex": 3,
     "statement": "Evaluate $0.3+0.03$.",
@@ -2011,11 +2011,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "4",
-      "16",
-      "6",
-      "12",
-      "10"
+      "$4$",
+      "$16$",
+      "$6$",
+      "$12$",
+      "$10$"
     ],
     "answerIndex": 4,
     "statement": "If $3+x=5$ and $-3+y=5$, find $x+y$.",
@@ -2036,11 +2036,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "14",
-      "10",
-      "12",
-      "22",
-      "20"
+      "$14$",
+      "$10$",
+      "$12$",
+      "$22$",
+      "$20$"
     ],
     "answerIndex": 4,
     "statement": "When $x=2$, what is the value of $2x^2+3x^2$?",
@@ -2061,11 +2061,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "100",
-      "1000",
-      "10000",
-      "100000",
-      "1000000"
+      "$100$",
+      "$1000$",
+      "$10000$",
+      "$100000$",
+      "$1000000$"
     ],
     "answerIndex": 2,
     "statement": "The number of minutes in a week is closest to which of the following?",
@@ -2086,11 +2086,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "0",
-      "2",
-      "3",
-      "6",
-      "8"
+      "$0$",
+      "$2$",
+      "$3$",
+      "$6$",
+      "$8$"
     ],
     "answerIndex": 3,
     "statement": "A machine takes a four-digit number $ABCD$ and outputs $A\\times B + C\\times D$. For example, $1234$ gives $1\\times 2+3\\times 4=14$. What is the output for $2023$?",
@@ -2111,11 +2111,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "7",
-      "5",
-      "4",
-      "3"
+      "$8$",
+      "$7$",
+      "$5$",
+      "$4$",
+      "$3$"
     ],
     "answerIndex": 0,
     "statement": "Three doors are numbered $1,2,3$. Each door is painted either black or gold. How many different colourings are possible?",
@@ -2137,11 +2137,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "26.00 dollars",
-      "28.00 dollars",
-      "24.00 dollars",
-      "30.00 dollars",
-      "36.00 dollars"
+      "$26.00\\text{ dollars}$",
+      "$28.00\\text{ dollars}$",
+      "$24.00\\text{ dollars}$",
+      "$30.00\\text{ dollars}$",
+      "$36.00\\text{ dollars}$"
     ],
     "answerIndex": 1,
     "statement": "Danny is buying snacks for $17$ soccer players. Juice boxes come in packs of $3$ and cost $2$ dollars per pack. Apples come in bags of $5$ and cost $4$ dollars per bag. Each player needs one juice box and one apple. What is the least Danny can spend?",
@@ -2162,11 +2162,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "50 min",
-      "40 min",
-      "30 min",
-      "20 min",
-      "10 min"
+      "$50\\text{ min}$",
+      "$40\\text{ min}$",
+      "$30\\text{ min}$",
+      "$20\\text{ min}$",
+      "$10\\text{ min}$"
     ],
     "answerIndex": 2,
     "statement": "A bicycle trip is $30$ km long. Ari rides at $20$ km/h and Bri rides at $15$ km/h. If they start together, how many minutes after Ari finishes will Bri finish?",
@@ -2187,11 +2187,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "500 L",
-      "600 L",
-      "700 L",
-      "800 L",
-      "900 L"
+      "$500\\text{ L}$",
+      "$600\\text{ L}$",
+      "$700\\text{ L}$",
+      "$800\\text{ L}$",
+      "$900\\text{ L}$"
     ],
     "answerIndex": 1,
     "statement": "Three tanks contain $3600$ L, $1600$ L, and $3800$ L of water. Water is moved from the first and third tanks into the second so that all three tanks end with the same amount. How many litres are moved from the first tank to the second?",
@@ -2213,11 +2213,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "1 : 1",
-      "1 : 2",
-      "1 : 3",
-      "2 : 5",
-      "3 : 5"
+      "$1 : 1$",
+      "$1 : 2$",
+      "$1 : 3$",
+      "$2 : 5$",
+      "$3 : 5$"
     ],
     "answerIndex": 1,
     "statement": "Points $A,B,C,D$ lie on a line in that order. If $AB:AC=1:5$ and $BC:CD=2:1$, what is $AB:CD$?",
@@ -2238,11 +2238,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "180",
-      "185",
-      "190",
-      "200",
-      "205"
+      "$180$",
+      "$185$",
+      "$190$",
+      "$200$",
+      "$205$"
     ],
     "answerIndex": 4,
     "statement": "At the start of this month, Mathilde and Salah each had $100$ coins. For Mathilde, this is $25\\%$ more than she had at the start of last month. For Salah, this is $20\\%$ fewer than he had at the start of last month. How many coins did they have in total at the start of last month?",
@@ -2264,11 +2264,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "$4\\sqrt{2}$ cm",
-      "4 cm",
-      "16 cm",
-      "8 cm",
-      "2 cm"
+      "$4\\sqrt{2}\\text{ cm}$",
+      "$4\\text{ cm}$",
+      "$16\\text{ cm}$",
+      "$8\\text{ cm}$",
+      "$2\\text{ cm}$"
     ],
     "answerIndex": 1,
     "statement": "A rectangle has length $8$ cm and width $\\pi$ cm. A semicircle has the same area as the rectangle. What is the semicircle's radius?",
@@ -2290,11 +2290,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "5",
-      "1",
-      "7",
-      "48"
+      "$3$",
+      "$5$",
+      "$1$",
+      "$7$",
+      "$48$"
     ],
     "answerIndex": 0,
     "statement": "If $a(x+2)+b(x+2)=60$ and $a+b=12$, find $x$.",
@@ -2316,8 +2316,8 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "6",
+      "$2$",
+      "$6$",
       "$\\frac{3}{2}$",
       "$\\frac{5}{2}$",
       "$\\frac{9}{2}$"
@@ -2342,11 +2342,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$"
     ],
     "answerIndex": 1,
     "statement": "A sequence has $101$ positive-integer terms. If a term $n$ is even, the next term is $\\tfrac12n+1$. If a term $n$ is odd, the next term is $\\tfrac12(n+1)$. If the first term is $16$, what is the $101$st term?",
@@ -2368,11 +2368,11 @@
     "difficulty": 11,
     "type": "multiple_choice",
     "choices": [
-      "12 : 13",
-      "2 : 3",
-      "9 : 16",
-      "3 : 2",
-      "16 : 9"
+      "$12 : 13$",
+      "$2 : 3$",
+      "$9 : 16$",
+      "$3 : 2$",
+      "$16 : 9$"
     ],
     "answerIndex": 2,
     "statement": "Twenty-five cards are arranged in a $5\\times 5$ grid as shown. Five cards have a $0$ on one side and a $1$ on the other. The other twenty cards have the same number on both sides. Loron flips all five cards in one chosen row or one chosen column. Afterward, Loron looks at the ratio of visible $0$s to visible $1$s. Which listed ratio is impossible?",
@@ -2401,11 +2401,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "2394",
-      "2396",
-      "2398",
-      "2400",
-      "2402"
+      "$2394$",
+      "$2396$",
+      "$2398$",
+      "$2400$",
+      "$2402$"
     ],
     "answerIndex": 0,
     "statement": "The positive divisors of $6$ are $1,2,3,6$. What is the sum of the positive divisors of $1184$?",
@@ -2427,11 +2427,11 @@
     "difficulty": 9,
     "type": "multiple_choice",
     "choices": [
-      "22",
-      "29",
-      "17",
-      "14",
-      "13"
+      "$22$",
+      "$29$",
+      "$17$",
+      "$14$",
+      "$13$"
     ],
     "answerIndex": 0,
     "statement": "A robotic grasshopper jumps $1$ cm east, then $2$ cm north, then $3$ cm west, then $4$ cm south, and repeats this four-jump pattern. After $n$ jumps, it is $162$ cm west and $158$ cm south of its starting point. What is the sum of the squares of the digits of $n$?",
@@ -2453,11 +2453,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "-8",
-      "26",
-      "-16",
-      "22",
-      "30"
+      "$-8$",
+      "$26$",
+      "$-16$",
+      "$22$",
+      "$30$"
     ],
     "answerIndex": 1,
     "statement": "If integers $x$ and $y$ satisfy $2x^2+8y=26$, which of the following could be the value of $x-y$?",
@@ -2479,11 +2479,11 @@
     "difficulty": 12,
     "type": "multiple_choice",
     "choices": [
-      "30",
-      "27",
-      "28",
-      "24",
-      "25"
+      "$30$",
+      "$27$",
+      "$28$",
+      "$24$",
+      "$25$"
     ],
     "answerIndex": 3,
     "statement": "For how many integers $m$ with $1\\le m\\le 30$ is there some positive integer $n$ such that $n!$ ends with exactly $m$ zeroes?",
@@ -2609,11 +2609,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "6",
-      "9",
-      "12",
-      "18",
-      "24"
+      "$6$",
+      "$9$",
+      "$12$",
+      "$18$",
+      "$24$"
     ],
     "answerIndex": 2,
     "statement": "Evaluate $6+(3\\times 6)-12$.",
@@ -2634,11 +2634,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "6",
-      "4",
-      "3",
-      "8",
-      "9"
+      "$6$",
+      "$4$",
+      "$3$",
+      "$8$",
+      "$9$"
     ],
     "answerIndex": 4,
     "statement": "The average of two numbers is $7$. If one of the numbers is $5$, what is the other?",
@@ -2659,11 +2659,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "Thursday",
-      "Friday",
-      "Tuesday",
-      "Monday",
-      "Wednesday"
+      "$\\text{Thursday}$",
+      "$\\text{Friday}$",
+      "$\\text{Tuesday}$",
+      "$\\text{Monday}$",
+      "$\\text{Wednesday}$"
     ],
     "answerIndex": 2,
     "statement": "Gauravi walks every day. On one Monday she walks $500$ m, and on each following day she walks $500$ m more than the previous day. On what day of the week will she first walk exactly $4500$ m?",
@@ -2685,11 +2685,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "32",
-      "16",
-      "64",
-      "4"
+      "$8$",
+      "$32$",
+      "$16$",
+      "$64$",
+      "$4$"
     ],
     "answerIndex": 2,
     "statement": "What is the greatest number of non-overlapping squares of side length $2$ that can fit inside a square of side length $8$?",
@@ -2711,11 +2711,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$"
     ],
     "answerIndex": 4,
     "statement": "An integer is chosen uniformly at random from the list\n$$1,2,2,3,3,3,4,4,4,4,5,5,5,5,5.$$ \nIf the probability of choosing $n$ is $\\tfrac13$, what is $n$?",
@@ -2737,11 +2737,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "24",
-      "14",
-      "21",
-      "12",
-      "16"
+      "$24$",
+      "$14$",
+      "$21$",
+      "$12$",
+      "$16$"
     ],
     "answerIndex": 3,
     "statement": "Points $P(2,6)$, $Q(2,2)$, and $R(8,5)$ form a triangle. Find the area of $\\triangle PQR$.",
@@ -2762,11 +2762,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "11",
-      "6",
-      "\\(\\frac{11}{6}\\)",
-      "12"
+      "$3$",
+      "$11$",
+      "$6$",
+      "$\\frac{11}{6}$",
+      "$12$"
     ],
     "answerIndex": 1,
     "statement": "Evaluate\n$$(1+2+3)\\left(1+\\frac12+\\frac13\\right).$$",
@@ -2788,11 +2788,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "12",
-      "5",
-      "7",
-      "77",
-      "132"
+      "$12$",
+      "$5$",
+      "$7$",
+      "$77$",
+      "$132$"
     ],
     "answerIndex": 0,
     "statement": "If $10x+y=75$ and $10y+x=57$ for positive integers $x$ and $y$, find $x+y$.",
@@ -2813,11 +2813,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "35",
-      "22",
-      "12",
-      "26",
-      "28"
+      "$35$",
+      "$22$",
+      "$12$",
+      "$26$",
+      "$28$"
     ],
     "answerIndex": 3,
     "statement": "Pearl digs $4$ holes in $7$ days, and Miguel digs $2$ holes in $3$ days. If they work together at these constant rates, how many holes will they dig in $21$ days?",
@@ -2839,11 +2839,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "10",
-      "11",
-      "12",
-      "13",
-      "14"
+      "$10$",
+      "$11$",
+      "$12$",
+      "$13$",
+      "$14$"
     ],
     "answerIndex": 3,
     "statement": "If\n$$2^{11}\\times 6^5=4^x\\times 3^y$$\nfor positive integers $x$ and $y$, find $x+y$.",
@@ -2864,11 +2864,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "Andy",
-      "Bev",
-      "Cao",
-      "Dhruv",
-      "Elcim"
+      "$\\text{Andy}$",
+      "$\\text{Bev}$",
+      "$\\text{Cao}$",
+      "$\\text{Dhruv}$",
+      "$\\text{Elcim}$"
     ],
     "answerIndex": 1,
     "statement": "Dhruv is older than Bev. Bev is older than Elcim. Elcim is younger than Andy. Andy is younger than Bev. Bev is younger than Cao. Who is the third oldest?",
@@ -2889,11 +2889,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4"
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
     ],
     "answerIndex": 2,
     "statement": "Suppose $d$ is odd and $e$ is even. How many of the following are odd?\n$$d+d,\\quad (e+e)d,\\quad d\\cdot d,\\quad d(e+d).$$",
@@ -2915,11 +2915,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "2:3",
-      "3:4",
-      "3:5",
-      "4:5",
-      "5:6"
+      "$2:3$",
+      "$3:4$",
+      "$3:5$",
+      "$4:5$",
+      "$5:6$"
     ],
     "answerIndex": 4,
     "statement": "Seven identical rectangles are arranged into two larger rectangles, called Figure A and Figure B, as shown. Find the ratio of the perimeter of Figure A to the perimeter of Figure B.",
@@ -2948,11 +2948,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "4",
-      "3",
-      "6",
-      "5",
-      "7"
+      "$4$",
+      "$3$",
+      "$6$",
+      "$5$",
+      "$7$"
     ],
     "answerIndex": 3,
     "statement": "Zebadiah has $3$ red shirts, $3$ blue shirts, and $3$ green shirts. He draws shirts one at a time without looking. He wants to guarantee a set containing either $3$ shirts of one colour or $3$ shirts of three different colours. What is the minimum number of shirts he must draw?",
@@ -2974,11 +2974,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "213",
-      "218",
-      "212",
-      "220",
-      "215"
+      "$213$",
+      "$218$",
+      "$212$",
+      "$220$",
+      "$215$"
     ],
     "answerIndex": 1,
     "statement": "A machine transforms a positive integer $a$ as follows: if $a$ is odd, it outputs $a+3$; if $a$ is even, it outputs $a+5$. Starting from $a=15$, the machine is used $51$ times. What is the final output?",
@@ -3000,11 +3000,11 @@
     "difficulty": 9,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "8",
-      "7",
-      "6",
-      "4"
+      "$5$",
+      "$8$",
+      "$7$",
+      "$6$",
+      "$4$"
     ],
     "answerIndex": 0,
     "statement": "When $111$ is divided by a positive integer $n$, the remainder is $6$. How many possible values of $n$ are there?",
@@ -3025,11 +3025,11 @@
     "difficulty": 9,
     "type": "multiple_choice",
     "choices": [
-      "450 \\(\\text{cm}^2\\)",
-      "600 \\(\\text{cm}^2\\)",
-      "750 \\(\\text{cm}^2\\)",
-      "375 \\(\\text{cm}^2\\)",
-      "300 \\(\\text{cm}^2\\)"
+      "$450 \\text{cm}^2$",
+      "$600 \\text{cm}^2$",
+      "$750 \\text{cm}^2$",
+      "$375 \\text{cm}^2$",
+      "$300 \\text{cm}^2$"
     ],
     "answerIndex": 0,
     "statement": "A closed cylinder has surface area $300\\text{ cm}^2$. If its radius were doubled, its surface area would be $900\\text{ cm}^2$. If instead its height were doubled, what would the new surface area be?",
@@ -3050,11 +3050,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "9:30 a.m.",
-      "9:35 a.m.",
-      "9:40 a.m.",
-      "9:45 a.m.",
-      "9:50 a.m."
+      "$\\text{9:30 a.m.}$",
+      "$\\text{9:35 a.m.}$",
+      "$\\text{9:40 a.m.}$",
+      "$\\text{9:45 a.m.}$",
+      "$\\text{9:50 a.m.}$"
     ],
     "answerIndex": 3,
     "statement": "Aria and Bianca start at $8{:}00$ a.m. from opposite ends of a road and walk toward each other's starting points at constant but different speeds. They meet at $8{:}42$ a.m. Aria reaches Bianca's start point at $9{:}10$ a.m. When does Bianca reach Aria's start point?",
@@ -3078,11 +3078,11 @@
     "difficulty": 12,
     "type": "multiple_choice",
     "choices": [
-      "21",
-      "17.5",
-      "36",
-      "16",
-      "21.5"
+      "$21$",
+      "$17.5$",
+      "$36$",
+      "$16$",
+      "$21.5$"
     ],
     "answerIndex": 0,
     "statement": "In the diagram, $\\triangle PQR$ is right-angled at $R$, with $PR=12$ and $QR=16$. Point $M$ is the midpoint of $PQ$, and point $N$ lies on $QR$ so that $MN\\perp PQ$. Find the area of $\\triangle PNR$.",
@@ -3111,11 +3111,11 @@
     "difficulty": 13,
     "type": "multiple_choice",
     "choices": [
-      "2000",
-      "1999",
-      "2002",
-      "2001",
-      "1998"
+      "$2000$",
+      "$1999$",
+      "$2002$",
+      "$2001$",
+      "$1998$"
     ],
     "answerIndex": 4,
     "statement": "A sequence is defined by\n$$t_n=\\frac1n-\\frac{1}{n+2} \\qquad (n\\ge 1).$$ \nWhat is the largest positive integer $k$ for which\n$$t_1+t_2+\\cdots+t_k<1.499?$$",
@@ -3244,11 +3244,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "9",
-      "5",
-      "36",
-      "6"
+      "$2$",
+      "$9$",
+      "$5$",
+      "$36$",
+      "$6$"
     ],
     "answerIndex": 4,
     "statement": "A rectangle has width $2$ cm and length $3$ cm. What is its area?",
@@ -3268,11 +3268,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "19",
-      "27",
-      "35",
-      "17",
-      "32"
+      "$19$",
+      "$27$",
+      "$35$",
+      "$17$",
+      "$32$"
     ],
     "answerIndex": 0,
     "statement": "Evaluate $2 + 3 \\times 5 + 2$.",
@@ -3293,11 +3293,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "10",
-      "15",
-      "20",
-      "12",
-      "18"
+      "$10$",
+      "$15$",
+      "$20$",
+      "$12$",
+      "$18$"
     ],
     "answerIndex": 1,
     "statement": "What number is equal to $25\\%$ of $60$?",
@@ -3317,12 +3317,12 @@
     ],
     "difficulty": 2,
     "type": "multiple_choice",
-    "choices": [
-      "3/4",
-      "4/3",
-      "2021",
-      "2",
-      "6"
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{3}$",
+        "$2021$",
+        "$2$",
+        "$6$"
     ],
     "answerIndex": 1,
     "statement": "When $x = 2021$, evaluate $\\dfrac{4x}{x + 2x}$.",
@@ -3343,11 +3343,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "6",
-      "27",
-      "53",
-      "39",
-      "77"
+      "$6$",
+      "$27$",
+      "$53$",
+      "$39$",
+      "$77$"
     ],
     "answerIndex": 2,
     "statement": "Which of the following integers cannot be written as a product of two integers, each greater than $1$?",
@@ -3369,19 +3369,24 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "$\\text{A}$",
+      "$\\text{B}$",
+      "$\\text{C}$",
+      "$\\text{D}$",
+      "$\\text{E}$"
     ],
     "answerIndex": 4,
     "statement": "A square sheet with a dot in one corner is folded along a diagonal, rotated $90^\\circ$ clockwise about its centre, and then unfolded. Which of the five diagrams is produced?",
     "statementImages": [
       {
-        "src": "images/problems/fermat-2021-06.png",
+        "src": "images/problems/fermat-2021-06a.png",
         "alt": "Add the official paper-folding diagram and the five answer choices for Fermat 2021 Problem 6.",
         "caption": "Diagram from the official contest."
+      },
+      {
+        "src": "images/problems/fermat-2021-06b.png",
+        "alt": "Add the official paper-folding diagram and the five answer choices for Fermat 2021 Problem 6.",
+        "caption": "Answers"
       }
     ],
     "solution": "Tracking the marked corner through the fold, rotation, and unfold gives the configuration shown in choice $E$.",
@@ -3400,13 +3405,13 @@
     ],
     "difficulty": 3,
     "type": "multiple_choice",
-    "choices": [
-      "-2",
-      "-1/2",
-      "0",
-      "1/2",
-      "2"
-    ],
+      "choices": [
+        "$-2$",
+        "$-\\frac{1}{2}$",
+        "$0$",
+        "$\\frac{1}{2}$",
+        "$2$"
+      ],
     "answerIndex": 3,
     "statement": "For which of the following values of $x$ is $x > \\dfrac{x}{2}$?",
     "solution": "Subtracting $\\dfrac{x}{2}$ from both sides gives $\\dfrac{x}{2} > 0$, so $x > 0$. Among the choices, only $\\dfrac{1}{2}$ works.",
@@ -3426,11 +3431,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "7",
-      "6",
-      "8",
-      "9"
+      "$5$",
+      "$7$",
+      "$6$",
+      "$8$",
+      "$9$"
     ],
     "answerIndex": 2,
     "statement": "If a two-digit positive integer has its digits reversed and the new number minus the original number is $54$, what is the positive difference between the original digits?",
@@ -3451,12 +3456,12 @@
     ],
     "difficulty": 3,
     "type": "multiple_choice",
-    "choices": [
-      "3",
-      "3/2",
-      "4",
-      "1",
-      "2"
+      "choices": [
+        "$3$",
+        "$\\frac{3}{2}$",
+        "$4$",
+        "$1$",
+        "$2$"
     ],
     "answerIndex": 3,
     "statement": "The line $y = 2x - 6$ is translated upward by $4$ units. What is the $x$-intercept of the new line?",
@@ -3477,11 +3482,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "10",
-      "25",
-      "2187",
-      "14",
-      "45"
+      "$10$",
+      "$25$",
+      "$2187$",
+      "$14$",
+      "$45$"
     ],
     "answerIndex": 4,
     "statement": "If $3^x = 5$, what is the value of $3^{x+2}$?",
@@ -3503,14 +3508,14 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "13",
-      "12",
-      "14",
-      "3",
-      "4"
+      "$13$",
+      "$12$",
+      "$14$",
+      "$3$",
+      "$4$"
     ],
     "answerIndex": 0,
-    "statement": "In the addition problem\n$$\\begin{array}{ccc}P&7&R\\\\+&3&9&R\\\\\\hline R&Q&0\\end{array}$$\nwhere $P,Q,R$ are distinct digits, find $P+Q+R$.",
+    "statement": "In the addition problem\n$$\\begin{array}{ccc}&P&7&R\\\\+&3&9&R\\\\\\hline &R&Q&0\\end{array}$$\nwhere $P,Q,R$ are distinct digits, find $P+Q+R$.",
     "solution": "From the ones column, $R+R$ ends in $0$, so $R=5$. Then the tens column is $7+9+1=17$, so $Q=7$. Finally, the hundreds column is $P+3+1=5$, so $P=1$. Thus $P+Q+R = 1+7+5 = 13$.",
     "credit": "2021 Fermat Contest, CEMC, University of Waterloo"
   },
@@ -3528,11 +3533,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$",
+      "$6$"
     ],
     "answerIndex": 4,
     "statement": "How many of the twenty perfect squares $1^2, 2^2, 3^2, \\dots, 20^2$ are divisible by $9$?",
@@ -3555,11 +3560,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "18",
-      "20",
-      "23",
-      "25",
-      "29"
+      "$18$",
+      "$20$",
+      "$23$",
+      "$25$",
+      "$29$"
     ],
     "answerIndex": 2,
     "statement": "Quadrilateral $WXYZ$ is made from two isosceles right triangles $W X Z$ and $X Y Z$. If $WX = 6\\sqrt{2}$, what is the perimeter of $WXYZ$ closest to?",
@@ -3587,11 +3592,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "12 : 1",
-      "7 : 1",
-      "4 : 3",
-      "16 : 9",
-      "1 : 1"
+      "$12 : 1$",
+      "$7 : 1$",
+      "$4 : 3$",
+      "$16 : 9$",
+      "$1 : 1$"
     ],
     "answerIndex": 0,
     "statement": "Natascha cycles $3$ times as fast as she runs. She spends $4$ hours cycling and $1$ hour running. What is the ratio of the distance she cycles to the distance she runs?",
@@ -3613,11 +3618,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "44",
-      "82",
-      "85",
-      "86",
-      "130"
+      "$44$",
+      "$82$",
+      "$85$",
+      "$86$",
+      "$130$"
     ],
     "answerIndex": 2,
     "statement": "Let $a$ and $b$ be positive integers satisfying $45a+b=2021$. What is the minimum possible value of $a+b$?",
@@ -3639,11 +3644,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "3",
-      "5",
-      "7",
-      "9"
+      "$1$",
+      "$3$",
+      "$5$",
+      "$7$",
+      "$9$"
     ],
     "answerIndex": 3,
     "statement": "If $a$ and $b$ are positive integers with $b>a$, which ones digit cannot occur as the units digit of $b! - a!$?",
@@ -3665,11 +3670,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "15",
-      "16",
-      "17",
-      "18",
-      "19"
+      "$15$",
+      "$16$",
+      "$17$",
+      "$18$",
+      "$19$"
     ],
     "answerIndex": 1,
     "statement": "A set $S$ contains $9$ distinct positive integers. The average of the two smallest is $5$, and the average of the two largest is $22$. What is the greatest possible average of all $9$ integers?",
@@ -3692,11 +3697,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "1/3",
-      "1/\\sqrt{8}",
-      "1/\\sqrt{12}",
-      "1/\\sqrt{15}",
-      "1/\\sqrt{10}"
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{\\sqrt{8}}$",
+      "$\\frac{1}{\\sqrt{12}}$",
+      "$\\frac{1}{\\sqrt{15}}$",
+      "$\\frac{1}{\\sqrt{10}}$"
     ],
     "answerIndex": 1,
     "statement": "In isosceles triangle $PQR$ with $PQ=PR$, semicircles are drawn on diameters $PQ$, $QR$, and $PR$. The sum of the three semicircle areas is $5$ times the area of the semicircle on diameter $QR$. Find $\\cos(\\angle PQR)$.",
@@ -3725,11 +3730,11 @@
     "difficulty": 9,
     "type": "multiple_choice",
     "choices": [
-      "56",
-      "14",
-      "36",
-      "34",
-      "42"
+      "$56$",
+      "$14$",
+      "$36$",
+      "$34$",
+      "$42$"
     ],
     "answerIndex": 1,
     "statement": "Real numbers $x,y,z$ satisfy\n$$x+y=7, \\qquad xz=-180, \\qquad (x+y+z)^2=4.$$ \nIf $S$ is the sum of the two possible values of $y$, find $-S$.",
@@ -3752,11 +3757,11 @@
     "difficulty": 12,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "5.25",
-      "5.5",
-      "5.75",
-      "6"
+      "$5$",
+      "$5.25$",
+      "$5.5$",
+      "$5.75$",
+      "$6$"
     ],
     "answerIndex": 2,
     "statement": "In the figure, $PRTY$ and $WRSU$ are squares, $PQXY$ is a rectangle, and the area of rectangle $PQXY$ is $30$. Find the value of $ST$ closest to one of the listed choices.",
@@ -3785,11 +3790,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "17",
-      "35",
-      "28",
-      "12",
-      "25"
+      "$17$",
+      "$35$",
+      "$28$",
+      "$12$",
+      "$25$"
     ],
     "answerIndex": 0,
     "statement": "A function $f$ satisfies $f(2)=5$, $f(3)=7$, and\n$$f(m)+f(n)=f(mn)$$\nfor all positive integers $m,n$. Find $f(12)$.",
@@ -3812,11 +3817,11 @@
     "difficulty": 12,
     "type": "multiple_choice",
     "choices": [
-      "59",
-      "61",
-      "63",
-      "65",
-      "67"
+      "$59$",
+      "$61$",
+      "$63$",
+      "$65$",
+      "$67$"
     ],
     "answerIndex": 0,
     "statement": "A cone has radius $3$ cm and slant height $5$ cm. It is placed upright in paint of depth $2$ cm, so its circular base and part of its lateral surface are painted. If the painted fraction of the cone's total surface area is $\\dfrac{p}{q}$ in lowest terms, find $p+q$.",
@@ -3845,19 +3850,29 @@
     "difficulty": 15,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "9",
-      "10",
-      "11",
-      "12"
+      "$8$",
+      "$9$",
+      "$10$",
+      "$11$",
+      "$12$"
     ],
     "answerIndex": 1,
     "statement": "Figure $1$ is an equilateral triangle made of $3$ unshaded dots. Each new figure is built from three copies of the previous figure, plus a central inverted triangle of shaded dots. What is the smallest $n$ for which Figure $n$ has at least $100000$ shaded dots?",
     "statementImages": [
       {
-        "src": "images/problems/fermat-2021-23.png",
+        "src": "images/problems/fermat-2021-23a.png",
         "alt": "Add the official dot-triangle Figures 1, 2, and 3 for Fermat 2021 Problem 23.",
-        "caption": "Diagram from the official contest."
+        "caption": "Figure 1"
+      },
+      {
+        "src": "images/problems/fermat-2021-23b.png",
+        "alt": "Add the official dot-triangle Figures 1, 2, and 3 for Fermat 2021 Problem 23.",
+        "caption": "Figure 2"
+      },
+      {
+        "src": "images/problems/fermat-2021-23b.png",
+        "alt": "Add the official dot-triangle Figures 1, 2, and 3 for Fermat 2021 Problem 23.",
+        "caption": "Figure 3"
       }
     ],
     "solution": "The base length doubles each time, so Figure $n$ has base length $2^n$. Thus its total number of dots is the triangular number\n$$\\frac{2^n(2^n+1)}{2}.$$ \nThe number of unshaded dots triples each time, so it is $3^n$. Therefore the number of shaded dots is\n$$\\frac{2^n(2^n+1)}{2} - 3^n.$$ \nFor $n=8$, this is $32896-6561=26335$. For $n=9$, this is $131328-19683=111645$. So the smallest such $n$ is $9$.",
@@ -3879,11 +3894,11 @@
     "difficulty": 17,
     "type": "multiple_choice",
     "choices": [
-      "65",
-      "69",
-      "53",
-      "57",
-      "61"
+      "$65$",
+      "$69$",
+      "$53$",
+      "$57$",
+      "$61$"
     ],
     "answerIndex": 4,
     "statement": "A pair of real numbers $(a,b)$ is chosen uniformly at random from the disk\n$$a^2+b^2 \\le \\frac14.$$ \nIf $p$ is the probability that the curves\n$$y=ax^2+2bx-a \\quad\\text{and}\\quad y=x^2$$\nintersect, which listed value is closest to $100p$?",
@@ -3905,11 +3920,11 @@
     "difficulty": 18,
     "type": "multiple_choice",
     "choices": [
-      "28",
-      "88",
-      "8",
-      "68",
-      "48"
+      "$28$",
+      "$88$",
+      "$8$",
+      "$68$",
+      "$48$"
     ],
     "answerIndex": 2,
     "statement": "Let $N$ be the number of triples of positive integers $(x,y,z)$ with $x<y<z$ and\n$$xyz = 2^2\\cdot 3^2\\cdot 5^2\\cdot 7^2\\cdot 11^2\\cdot 13^2\\cdot 17^2\\cdot 19^2.$$ \nWhat is the remainder when $N$ is divided by $100$?",
@@ -3930,11 +3945,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "(5,5)",
-      "(5,3)",
-      "(3,3)",
-      "(2.5,1.5)",
-      "(0,5)"
+      "$(5,5)$",
+      "$(5,3)$",
+      "$(3,3)$",
+      "$(2.5,1.5)$",
+      "$(0,5)$"
     ],
     "answerIndex": 1,
     "statement": "Points $O(0,0)$, $P(0,3)$, $Q$, and $R(5,0)$ form a rectangle. What are the coordinates of $Q$?",
@@ -3954,11 +3969,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "6060",
-      "4040",
-      "8080",
-      "0",
-      "2020"
+      "$6060$",
+      "$4040$",
+      "$8080$",
+      "$0$",
+      "$2020$"
     ],
     "answerIndex": 0,
     "statement": "Evaluate $3\\times 2020 + 2\\times 2020 - 4\\times 2020$.",
@@ -3979,11 +3994,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "2x + 1",
-      "2x - 1",
-      "(2x + 1)^2",
-      "-1",
-      "x + 1"
+      "$2x + 1$",
+      "$2x - 1$",
+      "$(2x + 1)^2$",
+      "$-1$",
+      "$x + 1$"
     ],
     "answerIndex": 0,
     "statement": "For every real number $x$, simplify $(x+1)^2-x^2$.",
@@ -4004,11 +4019,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "113",
-      "111",
-      "112",
-      "110",
-      "114"
+      "$113$",
+      "$111$",
+      "$112$",
+      "$110$",
+      "$114$"
     ],
     "answerIndex": 1,
     "statement": "Ewan counts by $11$s starting at $3$: $3,14,25,36,\\dots$. Which listed number appears in the sequence?",
@@ -4029,11 +4044,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "18",
-      "27",
-      "81",
-      "162"
+      "$3$",
+      "$18$",
+      "$27$",
+      "$81$",
+      "$162$"
     ],
     "answerIndex": 2,
     "statement": "Evaluate $\\sqrt{81 + (\\sqrt{81})^2}$.",
@@ -4055,11 +4070,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "12",
-      "14",
-      "16",
-      "21",
-      "26"
+      "$12$",
+      "$14$",
+      "$16$",
+      "$21$",
+      "$26$"
     ],
     "answerIndex": 1,
     "statement": "Anna thinks of an integer. It is not a multiple of $3$, not a perfect square, and the sum of its digits is prime. Which of the listed integers could it be?",
@@ -4080,11 +4095,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "30",
-      "36",
-      "60",
-      "72",
-      "45"
+      "$30$",
+      "$36$",
+      "$60$",
+      "$72$",
+      "$45$"
     ],
     "answerIndex": 3,
     "statement": "Angles $p,q,r,s,t$ lie on a straight angle, as shown. What is the average of $p,q,r,s,t$?",
@@ -4112,11 +4127,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "10",
-      "60",
-      "40",
-      "16",
-      "17"
+      "$10$",
+      "$60$",
+      "$40$",
+      "$16$",
+      "$17$"
     ],
     "answerIndex": 2,
     "statement": "If $2^n = 8^{20}$, what is $n$?",
@@ -4139,11 +4154,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "35",
-      "45",
-      "29",
-      "19",
-      "75"
+      "$35$",
+      "$45$",
+      "$29$",
+      "$19$",
+      "$75$"
     ],
     "answerIndex": 3,
     "statement": "A figure is built from five squares and two right triangles. Three square areas are $5$, $8$, and $32$, as shown. What is the area of the shaded square?",
@@ -4171,11 +4186,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "28",
-      "57",
-      "30",
-      "29"
+      "$1$",
+      "$28$",
+      "$57$",
+      "$30$",
+      "$29$"
     ],
     "answerIndex": 4,
     "statement": "Positive integers $s$ and $t$ satisfy $s(s-t)=29$. Find $s+t$.",
@@ -4197,11 +4212,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$"
     ],
     "answerIndex": 0,
     "statement": "In a $5\\times 5$ grid with $15$ X's, any X may be moved to any empty cell. What is the smallest number of X's that must be moved so that every row and every column contains exactly three X's?",
@@ -4223,21 +4238,21 @@
     "problemNumber": 12,
     "field": "Algebra",
     "topics": [
-      "Arithmetic Sequences",
-      "Expressions and Simplification"
+      "Rate Problems",
+      "Time Problems"
     ],
-    "difficulty": 4,
+    "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "7",
-      "8",
-      "9",
-      "10",
-      "11"
+      "$2$",
+      "$1.5$",
+      "$3$",
+      "$1$",
+      "$4.5$"
     ],
-    "answerIndex": 4,
-    "statement": "A number pattern begins $1,4,9,16,\\dots$. What is the next term after $100$?",
-    "solution": "These are the perfect squares. Since $100=10^2$, the next term is $11^2=121$.",
+    "answerIndex": 0,
+    "statement": "Harriet ran a $1000$ m course in $380$ seconds. She ran the first $720$ m of the course at a constant speed of $3$ m/s. She ran the remaining part of the course at a constant speed of $v$ m/s. What is the value of $v$?",
+    "solution": "Harriet ran the first $720$ m in $720/3=240$ seconds. That leaves $1000-720=280$ m to run in $380-240=140$ seconds. Therefore, $v=280/140=2$ m/s.",
     "credit": "2020 Fermat Contest, CEMC, University of Waterloo"
   },
   {
@@ -4246,24 +4261,23 @@
     "contest": "Fermat",
     "year": 2020,
     "problemNumber": 13,
-    "field": "Geometry",
+    "field": "Algebra",
     "topics": [
-      "Area",
-      "Polygons",
-      "Ratios and Proportions"
+      "Linear Equations",
+      "Algebraic Manipulation"
     ],
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "48",
-      "54",
-      "60",
-      "66",
-      "72"
+      "$1$",
+      "$-3$",
+      "$3$",
+      "$-1$",
+      "$0$"
     ],
     "answerIndex": 2,
-    "statement": "A regular polygon is partitioned into congruent regions as shown. If one region has area $10$, what is the total area of the polygon?",
-    "solution": "Counting the congruent regions in the official diagram shows there are $6$ of them, so the total area is $6\\cdot 10=60$.",
+    "statement": "In the list $2,x,y,5$, the sum of any two adjacent numbers is constant. The value of $x-y$ is",
+    "solution": "Let the common adjacent sum be $S$. Then $2+x=x+y$, so $y=2$. Also, $x+y=y+5$, so $x=5$. Therefore, $x-y=5-2=3$.",
     "credit": "2020 Fermat Contest, CEMC, University of Waterloo"
   },
   {
@@ -4280,11 +4294,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "6",
-      "4",
-      "8",
-      "7"
+      "$5$",
+      "$6$",
+      "$4$",
+      "$8$",
+      "$7$"
     ],
     "answerIndex": 0,
     "statement": "A garden has yellow, red, and white roses. How many yellow roses must be removed so that exactly $\\dfrac{2}{7}$ of the remaining roses are yellow?",
@@ -4306,11 +4320,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4"
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
     ],
     "answerIndex": 1,
     "statement": "Let $N=3x+4y+5z$, where each of $x,y,z$ is either $1$ or $-1$. How many of the following are true?\n- $N$ can equal $0$\n- $N$ is always odd\n- $N$ cannot equal $4$\n- $N$ is always even",
@@ -4331,13 +4345,13 @@
     ],
     "difficulty": 7,
     "type": "multiple_choice",
-    "choices": [
-      "1",
-      "-1",
-      "-1/2",
-      "0",
-      "1/2"
-    ],
+      "choices": [
+        "$1$",
+        "$-1$",
+        "$-\\frac{1}{2}$",
+        "$0$",
+        "$\\frac{1}{2}$"
+      ],
     "answerIndex": 3,
     "statement": "If real numbers $x,y$ satisfy $-4 \\le x \\le -2$ and $2 \\le y \\le 4$, what is the greatest possible value of $\\dfrac{x+y}{x}$?",
     "solution": "Rewrite as\n$$\\frac{x+y}{x}=1+\\frac{y}{x}.$$ \nSince $x<0$, the ratio $\\frac{y}{x}$ is largest when $y$ is as small as possible and $x$ is as negative as possible, giving $\\frac{2}{-4}=-\\frac12$. So the maximum is $1-\\frac12=\\frac12$.",
@@ -4357,13 +4371,13 @@
     ],
     "difficulty": 8,
     "type": "multiple_choice",
-    "choices": [
-      "60/13",
-      "5",
-      "30/13",
-      "4",
-      "3"
-    ],
+      "choices": [
+        "$\\frac{60}{13}$",
+        "$5$",
+        "$\\frac{30}{13}$",
+        "$4$",
+        "$3$"
+      ],
     "answerIndex": 1,
     "statement": "In right triangle $PQR$ with right angle at $Q$, point $S$ lies on $PR$ and $QS \\perp PR$. If the area of $\\triangle PQR$ is $30$ and $PQ=5$, find $QS$.",
     "statementImages": [
@@ -4391,11 +4405,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "13",
-      "17",
-      "11",
-      "16",
-      "15"
+      "$13$",
+      "$17$",
+      "$11$",
+      "$16$",
+      "$15$"
     ],
     "answerIndex": 1,
     "statement": "Four teams play a round-robin tournament. A win gives $3$ points, a tie gives $1$ point to each team, and a loss gives $0$. If $S$ is the total number of points awarded, which listed value cannot equal $S$?",
@@ -4416,13 +4430,13 @@
     ],
     "difficulty": 8,
     "type": "multiple_choice",
-    "choices": [
-      "-4/3",
-      "-2/3",
-      "0",
-      "2/3",
-      "4/3"
-    ],
+      "choices": [
+        "$-\\frac{4}{3}$",
+        "$-\\frac{2}{3}$",
+        "$0$",
+        "$\\frac{2}{3}$",
+        "$\\frac{4}{3}$"
+      ],
     "answerIndex": 4,
     "statement": "When\n$$(3+2x+x^2)(1+mx+m^2x^2)$$\nis expanded, the coefficient of $x^2$ equals $1$. Find the sum of all possible values of $m$.",
     "solution": "The coefficient of $x^2$ is $3m^2+2m+1$. Setting this equal to $1$ gives\n$$3m^2+2m=0 \\quad\\Rightarrow\\quad m(3m+2)=0.$$ \nSo $m=0$ or $m=-\\frac23$. Their sum is $-\\frac23$.",
@@ -4442,13 +4456,13 @@
     ],
     "difficulty": 8,
     "type": "multiple_choice",
-    "choices": [
-      "4/7",
-      "1/2",
-      "13/27",
-      "11/21",
-      "3/7"
-    ],
+      "choices": [
+        "$\\frac{4}{7}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{13}{27}$",
+        "$\\frac{11}{21}$",
+        "$\\frac{3}{7}$"
+      ],
     "answerIndex": 2,
     "statement": "A cube has faces labeled with $2,3,4,5,6,7$ dots. One dot is removed uniformly at random from all the dots on the cube, and then the cube is rolled uniformly. What is the probability that the top face has an odd number of dots?",
     "solution": "Originally the odd faces are $3,5,7$. Removing one dot from an odd face makes it even; removing one from an even face makes it odd. There are $27$ total dots. If the removed dot came from an odd face, the number of odd faces becomes $2$; this happens with probability $15/27$. If it came from an even face, the number of odd faces becomes $4$; this happens with probability $12/27$. So the required probability is\n$$\\frac{15}{27}\\cdot \\frac{2}{6} + \\frac{12}{27}\\cdot \\frac{4}{6} = \\frac{13}{27}.$$",
@@ -4469,11 +4483,11 @@
     "difficulty": 12,
     "type": "multiple_choice",
     "choices": [
-      "160",
-      "176",
-      "178",
-      "195",
-      "216"
+      "$160$",
+      "$176$",
+      "$178$",
+      "$195$",
+      "$216$"
     ],
     "answerIndex": 0,
     "statement": "A central circle contains $36$, and eight surrounding circles must be filled with distinct positive integers so that the product of the three numbers on any straight line is $2592$. What is the largest possible sum of all nine numbers?",
@@ -4502,11 +4516,11 @@
     "difficulty": 11,
     "type": "multiple_choice",
     "choices": [
-      "27",
-      "39",
-      "29",
-      "92",
-      "41"
+      "$27$",
+      "$39$",
+      "$29$",
+      "$92$",
+      "$41$"
     ],
     "answerIndex": 0,
     "statement": "Real numbers $x$ and $y$ satisfy\n$$x^2+3xy+y^2=909, \\qquad 3x^2+xy+3y^2=1287.$$ \nWhat is one possible value of $x+y$?",
@@ -4528,11 +4542,11 @@
     "difficulty": 12,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "-1",
-      "0",
-      "1",
-      "-2"
+      "$2$",
+      "$-1$",
+      "$0$",
+      "$1$",
+      "$-2$"
     ],
     "answerIndex": 4,
     "statement": "There are real numbers $a$ and $b$ such that a function $f$ satisfies\n$$f(x)=ax+b$$\nfor all real $x$, and also\n$$f(bx+a)=x$$\nfor all real $x$. Find $a+b$.",
@@ -4554,11 +4568,11 @@
     "difficulty": 15,
     "type": "multiple_choice",
     "choices": [
-      "0.93",
-      "0.91",
-      "0.95",
-      "0.87",
-      "0.89"
+      "$0.93$",
+      "$0.91$",
+      "$0.95$",
+      "$0.87$",
+      "$0.89$"
     ],
     "answerIndex": 4,
     "statement": "Inside a large circle, a circle of radius $1$ passes through the large circle's center and is tangent to the large circle. Two smaller congruent circles, each of radius $r$, are tangent to the other three circles. Find the value of $r$ closest to one of the listed choices.",
@@ -4586,13 +4600,13 @@
     ],
     "difficulty": 16,
     "type": "multiple_choice",
-    "choices": [
-      "3/4",
-      "7/12",
-      "1/4",
-      "1/2",
-      "2/3"
-    ],
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{7}{12}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$"
+      ],
     "answerIndex": 3,
     "statement": "Three real numbers $x,y,z$ are chosen independently and uniformly from $[0,1]$. What is the probability that both $x-y$ and $x-z$ lie strictly between $-\\dfrac12$ and $\\dfrac12$?",
     "solution": "This is the volume in the unit cube satisfying\n$$-\\frac12 < x-y < \\frac12, \\qquad -\\frac12 < x-z < \\frac12.$$ \nFor each fixed $x$, both $y$ and $z$ must lie in the interval $(x-\\tfrac12, x+\\tfrac12)$ intersected with $[0,1]$. The allowed length is $x+\\tfrac12$ for $0\\le x\\le \\tfrac12$, and $\\tfrac32-x$ for $\\tfrac12\\le x\\le 1$. So the probability is\n$$\\int_0^{1/2}(x+1/2)^2\\,dx + \\int_{1/2}^{1}(3/2-x)^2\\,dx = 2\\int_0^{1/2}(x+1/2)^2\\,dx = \\frac12.$$",
@@ -4612,11 +4626,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4"
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
     ],
     "answerIndex": 4,
     "statement": "What is the remainder when $14$ is divided by $5$?",
@@ -4636,11 +4650,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "39x + 39y",
-      "x + y",
-      "39x + y",
-      "x + 39y",
-      "19x - 18y"
+      "$39x + 39y$",
+      "$x + y$",
+      "$39x + y$",
+      "$x + 39y$",
+      "$19x - 18y$"
     ],
     "answerIndex": 1,
     "statement": "Simplify $20(x+y)-19(y+x)$.",
@@ -4661,11 +4675,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "1",
-      "\\(\\frac{7}{2}\\)",
-      "\\(\\frac{17}{2}\\)",
-      "7"
+      "$5$",
+      "$1$",
+      "$\\frac{7}{2}$",
+      "$\\frac{17}{2}$",
+      "$7$"
     ],
     "answerIndex": 0,
     "statement": "Evaluate $8-\\dfrac{6}{4-2}$.",
@@ -4687,11 +4701,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "25",
-      "23",
-      "24",
-      "21",
-      "27"
+      "$25$",
+      "$23$",
+      "$24$",
+      "$21$",
+      "$27$"
     ],
     "answerIndex": 0,
     "statement": "On a number line, $P$ is at $3$ and $V$ is at $33$. The segment from $3$ to $33$ is split into six equal parts by points $Q,R,S,T,U$. Find the sum of the lengths of $PS$ and $TV$.",
@@ -4719,11 +4733,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "6",
-      "1.5",
-      "15",
-      "10"
+      "$5$",
+      "$6$",
+      "$1.5$",
+      "$15$",
+      "$10$"
     ],
     "answerIndex": 4,
     "statement": "Mike rides his bicycle at a constant speed of $30$ km/h. How far does he travel in $20$ minutes?",
@@ -4746,11 +4760,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{3}{4}\\)",
-      "\\(\\frac{3}{7}\\)",
-      "\\(\\frac{1}{2}\\)",
-      "\\(\\frac{3}{5}\\)",
-      "\\(\\frac{2}{3}\\)"
+      "$\\frac{3}{4}$",
+      "$\\frac{3}{7}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{2}{3}$"
     ],
     "answerIndex": 2,
     "statement": "Rectangle $PQRS$ contains three congruent triangles $STU$, $UVW$, and $WXR$ as shown. What fraction of the rectangle is shaded?",
@@ -4778,11 +4792,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "Arva",
-      "Blythe",
-      "Cans",
-      "Dundee",
-      "Ernie"
+      "$\\text{Arva}$",
+      "$\\text{Blythe}$",
+      "$\\text{Cans}$",
+      "$\\text{Dundee}$",
+      "$\\text{Ernie}$"
     ],
     "answerIndex": 1,
     "statement": "Cans is north of Ernie. Dundee is south of Cans but north of Ernie. Arva is south of Blythe and north of both Dundee and Cans. Which town is farthest north?",
@@ -4804,11 +4818,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "7",
-      "6",
-      "5",
-      "4",
-      "3"
+      "$7$",
+      "$6$",
+      "$5$",
+      "$4$",
+      "$3$"
     ],
     "answerIndex": 2,
     "statement": "The product $8\\times 48\\times 81$ is divisible by $6^k$. What is the largest possible integer value of $k$?",
@@ -4829,11 +4843,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{1}{9}\\)",
-      "\\(\\frac{7}{24}\\)",
-      "\\(\\frac{1}{5}\\)",
-      "\\(\\frac{1}{48}\\)",
-      "\\(\\frac{7}{48}\\)"
+      "$\\frac{1}{9}$",
+      "$\\frac{7}{24}$",
+      "$\\frac{1}{5}$",
+      "$\\frac{1}{48}$",
+      "$\\frac{7}{48}$"
     ],
     "answerIndex": 4,
     "statement": "Find the average of $\\dfrac{1}{8}$ and $\\dfrac{1}{6}$.",
@@ -4855,11 +4869,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "5",
-      "3",
-      "8",
-      "7"
+      "$2$",
+      "$5$",
+      "$3$",
+      "$8$",
+      "$7$"
     ],
     "answerIndex": 1,
     "statement": "Using the digits $2,3,5,7,8$ exactly once, form the five-digit integer closest to $30000$. What is its tens digit?",
@@ -4881,11 +4895,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "-3",
-      "\\(\\frac{1}{3}\\)",
-      "3",
-      "-1",
-      "0"
+      "$-3$",
+      "$\\frac{1}{3}$",
+      "$3$",
+      "$-1$",
+      "$0$"
     ],
     "answerIndex": 1,
     "statement": "Line $\\ell$ is perpendicular to the line $y=x-3$ and has the same $x$-intercept as that line. What is the $y$-intercept of $\\ell$?",
@@ -4906,11 +4920,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "59",
-      "57",
-      "48",
-      "51",
-      "41"
+      "$59$",
+      "$57$",
+      "$48$",
+      "$51$",
+      "$41$"
     ],
     "answerIndex": 3,
     "statement": "A quiz has $30$ questions in the first part and $50$ in the second. Alberto got exactly $70\\%$ of the first part correct and exactly $40\\%$ of the second part correct. Which listed percentage is closest to his overall percentage correct?",
@@ -4931,11 +4945,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "7:08 a.m.",
-      "7:40 a.m.",
-      "7:32 a.m.",
-      "7:36 a.m.",
-      "7:31 a.m."
+      "$\\text{7:08 a.m.}$",
+      "$\\text{7:40 a.m.}$",
+      "$\\text{7:32 a.m.}$",
+      "$\\text{7:36 a.m.}$",
+      "$\\text{7:31 a.m.}$"
     ],
     "answerIndex": 0,
     "statement": "Tanis noticed that it was both $8x$ minutes after $7{:}00$ a.m. and $7x$ minutes before $8{:}00$ a.m. for some value of $x$. What time was it?",
@@ -4957,11 +4971,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "$\\text{A}$",
+      "$\\text{B}$",
+      "$\\text{C}$",
+      "$\\text{D}$",
+      "$\\text{E}$"
     ],
     "answerIndex": 0,
     "statement": "Fill the $5\\times 5$ grid with the letters $A,B,C,D,E$ so that each letter appears exactly once in each row and once in each column. Which letter must go in the square marked with $*$?",
@@ -4990,11 +5004,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "15",
-      "16",
-      "10",
-      "11",
-      "12"
+      "$15$",
+      "$16$",
+      "$10$",
+      "$11$",
+      "$12$"
     ],
     "answerIndex": 4,
     "statement": "There are six identical red balls and three identical green balls. Four balls are selected and arranged in a row. How many different-looking arrangements are possible?",
@@ -5010,29 +5024,28 @@
     "field": "Geometry",
     "topics": [
       "Area",
-      "Right Triangles",
-      "Pythagorean Theorem",
-      "Length Chasing"
+      "Perimeter",
+      "Polygons"
     ],
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "96",
-      "192",
-      "288",
-      "72",
-      "168"
+      "$96$",
+      "$192$",
+      "$288$",
+      "$72$",
+      "$168$"
     ],
-    "answerIndex": 2,
-    "statement": "A rectangle contains an isosceles right triangle with vertices on the rectangle, and the side lengths shown lead to a computed triangle area. Find the area of the shaded region.",
+    "answerIndex": 0,
+    "statement": "In the diagram, each line segment has length x or y. Also, each pair of adjacent sides is perpendicular.\n\nIf the area of the figure is 252 and x = 2y, the perimeter of the figure is",
     "statementImages": [
       {
         "src": "images/problems/fermat-2019-16.png",
-        "alt": "Add the official shaded-rectangle-and-triangle diagram for Fermat 2019 Problem 16.",
+        "alt": "Official diagram for Fermat 2019 Problem 16.",
         "caption": "Diagram from the official contest."
       }
     ],
-    "solution": "Using the dimensions from the official diagram, the shaded region has area $288$.",
+    "solution": "Since $x=2y$, draw dotted lines parallel to the line segments in the given figure so the figure is divided into $7$ squares, each of side length $y$. Then $7y^2=252$, so $y^2=36$ and, since $y>0$, we get $y=6$. The perimeter of the figure consists of $16$ segments of length $y$, so the perimeter is $16\\cdot 6=96$.",
     "credit": "2019 Fermat Contest, CEMC, University of Waterloo"
   },
   {
@@ -5050,11 +5063,11 @@
     "difficulty": 9,
     "type": "multiple_choice",
     "choices": [
-      "172",
-      "168",
-      "170",
-      "176",
-      "174"
+      "$172$",
+      "$168$",
+      "$170$",
+      "$176$",
+      "$174$"
     ],
     "answerIndex": 1,
     "statement": "In regular pentagon $PQRST$, triangle $PUT$ is equilateral. Find the obtuse angle $\\angle QUS$.",
@@ -5083,11 +5096,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "16",
-      "11",
-      "21",
-      "10",
-      "33"
+      "$16$",
+      "$11$",
+      "$21$",
+      "$10$",
+      "$33$"
     ],
     "answerIndex": 3,
     "statement": "How many $7$-digit positive integers use only the digits $0$ and $1$ and are divisible by $6$?",
@@ -5102,21 +5115,21 @@
     "problemNumber": 19,
     "field": "Algebra",
     "topics": [
-      "Linear Equations",
-      "Ratios and Proportions"
+      "Functions",
+      "Functional Equations"
     ],
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "64",
-      "48",
-      "82",
-      "84"
+      "$4374$",
+      "$1162$",
+      "$54$",
+      "$1458$",
+      "$486$"
     ],
     "answerIndex": 3,
-    "statement": "Radford and Peter run at constant speeds. Radford starts $30$ m ahead. After $3$ minutes, Peter is $18$ m ahead. Peter finishes exactly $7$ minutes after the start. How far from the finish line is Radford when Peter finishes?",
-    "solution": "Over the first $3$ minutes, Peter gains $48$ m on Radford, so he is $16$ m/min faster. Over the next $4$ minutes, Peter gains another $64$ m. Since he was already $18$ m ahead at $3$ minutes, by the finish he is $18+64=82$ m ahead. So Radford is $82$ m from the finish line.",
+    "statement": "The function $f$ has the properties that $f(1)=6$ and $f(2x+1)=3f(x)$ for every integer $x$. What is the value of $f(63)$?",
+    "solution": "Apply the rule repeatedly:\n$$f(3)=3f(1)=18,$$\n$$f(7)=3f(3)=54,$$\n$$f(15)=3f(7)=162,$$\n$$f(31)=3f(15)=486,$$\n$$f(63)=3f(31)=1458.$$\nSo the answer is $1458$.",
     "credit": "2019 Fermat Contest, CEMC, University of Waterloo"
   },
   {
@@ -5125,24 +5138,24 @@
     "contest": "Fermat",
     "year": 2019,
     "problemNumber": 20,
-    "field": "Number Theory",
+    "field": "Geometry",
     "topics": [
-      "Inequalities",
-      "Casework",
-      "Sign Analysis"
+      "Circle Geometry",
+      "Triangle Geometry",
+      "Area"
     ],
-    "difficulty": 10,
+    "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "1009",
-      "1010",
-      "1514",
-      "1515",
-      "1513"
+      "$3\\sqrt{3}$",
+      "$4\\sqrt{3}$",
+      "$6\\sqrt{3}$",
+      "$5\\sqrt{3}$",
+      "$2\\sqrt{3}$"
     ],
-    "answerIndex": 1,
-    "statement": "How many positive integers $x$ satisfy\n$$(x-2)(x-4)(x-6)\\cdots (x-2018) \\le 0?$$",
-    "solution": "The product has zeros at the even integers from $2$ to $2018$, giving $1009$ zeros. Between consecutive zeros, the sign alternates. Since the leading term is positive, the product is negative on every other interval. Counting the integer points in the nonpositive regions gives $1010$.",
+    "answerIndex": 0,
+    "statement": "The vertices of an equilateral triangle lie on a circle with radius $2$. The area of the triangle is",
+    "solution": "Let $O$ be the centre of the circle, and let $P,Q,R$ be the triangle's vertices. The three central angles are equal and add to $360^\\circ$, so each is $120^\\circ$.\n\nLet $M$ be the midpoint of $PQ$. In isosceles triangle $POQ$, segment $OM$ is both an altitude and an angle bisector, so triangle $POM$ is a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle with hypotenuse $OP=2$. Therefore,\n$$PM=\\sqrt{3},$$\nso\n$$PQ=2PM=2\\sqrt{3}.$$\nThus the area of the equilateral triangle is\n$$\\frac{\\sqrt{3}}{4}(2\\sqrt{3})^2=3\\sqrt{3}.$$",
     "credit": "2019 Fermat Contest, CEMC, University of Waterloo"
   },
   {
@@ -5151,24 +5164,24 @@
     "contest": "Fermat",
     "year": 2019,
     "problemNumber": 21,
-    "field": "Algebra",
+    "field": "Number Theory",
     "topics": [
-      "Recurrences",
-      "Sequences",
-      "Series and Summation"
+      "Digit Properties",
+      "Column Arithmetic",
+      "Casework"
     ],
     "difficulty": 11,
     "type": "multiple_choice",
     "choices": [
-      "-x - 2y + 2023",
-      "3x - 2y + 2017",
-      "y",
-      "x + y - 1",
-      "2x + y + 2015"
+      "$14$",
+      "$20$",
+      "$16$",
+      "$17$",
+      "$13$"
     ],
     "answerIndex": 0,
-    "statement": "A sequence satisfies $a_1=x$, $a_3=y$, and for $n\\ge 1$,\n$$a_{n+1}=a_n+a_{n+2}-1.$$ \nFind the sum of the first $2018$ terms.",
-    "solution": "The recurrence implies a linear pattern in alternating terms. Summing the sequence in pairs and simplifying gives the total\n$$-x-2y+2023.$$",
+    "statement": "In the multiplication\n$$\\begin{array}{r}\nPQRST4\\\\\\times\\;4 \\\\\n\\hline\n4PQRST\n\\end{array}$$\neach of $P$, $Q$, $R$, $S$, and $T$ is a digit. What is the value of $P+Q+R+S+T$?",
+    "solution": "Work from right to left using the carries.\n\nSince $4\\times 4=16$, we get $T=6$ and carry $1$.\n\nThen\n$$4\\times 6+1=25,$$\nso $S=5$ and we carry $2$.\n\nNext,\n$$4\\times 5+2=22,$$\nso $R=2$ and we carry $2$.\n\nThen\n$$4\\times 2+2=10,$$\nso $Q=0$ and we carry $1$.\n\nFinally,\n$$4\\times 0+1=1,$$\nso $P=1$.\n\nTherefore,\n$$P+Q+R+S+T=1+0+2+5+6=14.$$",
     "credit": "2019 Fermat Contest, CEMC, University of Waterloo"
   },
   {
@@ -5186,11 +5199,11 @@
     "difficulty": 13,
     "type": "multiple_choice",
     "choices": [
-      "50",
-      "91",
-      "41",
-      "82",
-      "100"
+      "$50$",
+      "$91$",
+      "$41$",
+      "$82$",
+      "$100$"
     ],
     "answerIndex": 1,
     "statement": "Two circles touch at $P$. The larger circle has perpendicular diameters $QP$ and $SU$ meeting at $O$. Point $V$ lies on $QP$, and $VP$ is a diameter of the smaller circle. The smaller circle meets $SU$ at $T$. If $QV=9$ and $ST=5$, find the sum of the two diameters.",
@@ -5219,11 +5232,11 @@
     "difficulty": 12,
     "type": "multiple_choice",
     "choices": [
-      "64",
-      "63",
-      "66",
-      "65",
-      "69"
+      "$64$",
+      "$63$",
+      "$66$",
+      "$65$",
+      "$69$"
     ],
     "answerIndex": 1,
     "statement": "How many positive integers $n\\le 100$ can be written as the sum of four or more consecutive positive integers?",
@@ -5245,11 +5258,11 @@
     "difficulty": 13,
     "type": "multiple_choice",
     "choices": [
-      "7618",
-      "698",
-      "1738",
-      "7508",
-      "8098"
+      "$7618$",
+      "$698$",
+      "$1738$",
+      "$7508$",
+      "$8098$"
     ],
     "answerIndex": 4,
     "statement": "The quadratic equation\n$$x^2-(r+7)x+r+87=0$$\nhas two distinct negative real roots exactly when $p<r<q$. Find $p^2+q^2$.",
@@ -5272,11 +5285,11 @@
     "difficulty": 16,
     "type": "multiple_choice",
     "choices": [
-      "4",
-      "1",
-      "3",
-      "2",
-      "5"
+      "$4$",
+      "$1$",
+      "$3$",
+      "$2$",
+      "$5$"
     ],
     "answerIndex": 0,
     "statement": "In $\\triangle QRS$, point $T$ lies on $QS$ and satisfies $\\angle QRT=\\angle SRT$. Suppose $QT=m$ and $TS=n$ are integers with $n>m$, and $n+m$ is a multiple of $n-m$. If the number of possible integer values of the perimeter is $m^2+2m-1$, find $n-m$.",
@@ -5303,11 +5316,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "2012",
-      "2014",
-      "2016",
-      "2018",
-      "2020"
+      "$2012$",
+      "$2014$",
+      "$2016$",
+      "$2018$",
+      "$2020$"
     ],
     "answerIndex": 3,
     "statement": "Evaluate $2016-2017+2018-2019+2020$.",
@@ -5327,11 +5340,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "25",
-      "14",
-      "11",
-      "23"
+      "$3$",
+      "$25$",
+      "$14$",
+      "$11$",
+      "$23$"
     ],
     "answerIndex": 1,
     "statement": "On Monday, the minimum temperature in Fermatville was $-11^\\circ\\text{C}$ and the maximum temperature was $14^\\circ\\text{C}$. What was the range of temperatures?",
@@ -5352,11 +5365,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "-4",
-      "12",
-      "0",
-      "4",
-      "8"
+      "$-4$",
+      "$12$",
+      "$0$",
+      "$4$",
+      "$8$"
     ],
     "answerIndex": 0,
     "statement": "If $x=-2$ and $y=-1$, find the value of\n$$(3x+2y)-(3x-2y).$$",
@@ -5377,11 +5390,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "1",
-      "9",
-      "5",
-      "7",
-      "3"
+      "$1$",
+      "$9$",
+      "$5$",
+      "$7$",
+      "$3$"
     ],
     "answerIndex": 1,
     "statement": "How many integers are greater than $\\frac{5}{7}$ and less than $\\frac{28}{3}$?",
@@ -5402,11 +5415,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "12",
-      "16",
-      "36",
-      "64",
-      "81"
+      "$12$",
+      "$16$",
+      "$36$",
+      "$64$",
+      "$81$"
     ],
     "answerIndex": 3,
     "statement": "The symbols $\\heartsuit$ and $\\nabla$ represent different positive integers less than $20$. If\n$$\\heartsuit\\times\\heartsuit\\times\\heartsuit=\\nabla,$$\nfind $\\nabla\\times\\nabla$.",
@@ -5427,11 +5440,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "34 degrees",
-      "22 degrees",
-      "68 degrees",
-      "11 degrees",
-      "79 degrees"
+      "$34^\\circ$",
+      "$22^\\circ$",
+      "$68^\\circ$",
+      "$11^\\circ$",
+      "$79^\\circ$"
     ],
     "answerIndex": 4,
     "statement": "In the diagram, points $R$ and $S$ lie on $PT$ and $PQ$, respectively. If $\\angle PQR=90^\\circ$, $\\angle QRT=158^\\circ$, and $\\angle PRS=\\angle QRS$, what is $\\angle QSR$?",
@@ -5459,11 +5472,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "585 km",
-      "273 km",
-      "312 km",
-      "429 km",
-      "196.5 km"
+      "$585\\text{ km}$",
+      "$273\\text{ km}$",
+      "$312\\text{ km}$",
+      "$429\\text{ km}$",
+      "$196.5\\text{ km}$"
     ],
     "answerIndex": 1,
     "statement": "Bev has driven $312$ km from Waterloo to Marathon and has $858$ km left. How much farther must she drive to be halfway through the trip?",
@@ -5484,11 +5497,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "-4",
-      "2",
-      "0",
-      "-1"
+      "$3$",
+      "$-4$",
+      "$2$",
+      "$0$",
+      "$-1$"
     ],
     "answerIndex": 0,
     "statement": "For what value of $k$ is the line through $(3,2k+1)$ and $(8,4k-5)$ parallel to the $x$-axis?",
@@ -5511,11 +5524,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "60",
-      "36",
-      "48",
-      "24",
-      "12"
+      "$60$",
+      "$36$",
+      "$48$",
+      "$24$",
+      "$12$"
     ],
     "answerIndex": 1,
     "statement": "Rectangle $PQRS$ has $SR=15$. Point $T$ is above $PS$, and point $U$ is on $PS$ so that $TU\\perp PS$. If $PT=10$, $US=4$, and the area of the rectangle is $180$, find the area of $\\triangle PTS$.",
@@ -5543,11 +5556,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "$\\text{A}$",
+      "$\\text{B}$",
+      "$\\text{C}$",
+      "$\\text{D}$",
+      "$\\text{E}$"
     ],
     "answerIndex": 2,
     "statement": "On the number line from $-2$ to $3$, the interval is divided into $10$ equal parts. The points $A,x,B,C,D,E$ are marked as shown. Which labeled point best approximates the value of $x^2$?",
@@ -5575,11 +5588,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "48",
-      "20",
-      "40",
-      "32",
-      "30"
+      "$48$",
+      "$20$",
+      "$40$",
+      "$32$",
+      "$30$"
     ],
     "answerIndex": 2,
     "statement": "A bag contains $8$ red balls and some white balls. If $\\frac{5}{6}$ of the balls are white, how many white balls are there?",
@@ -5601,11 +5614,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "15",
-      "16",
-      "11",
-      "12",
-      "14"
+      "$15$",
+      "$16$",
+      "$11$",
+      "$12$",
+      "$14$"
     ],
     "answerIndex": 4,
     "statement": "In the given $5\\times 5$ grid, how many squares formed by the grid lines contain the shaded $1\\times 1$ square?",
@@ -5634,11 +5647,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "458",
-      "587",
-      "376",
-      "315",
-      "518"
+      "$458$",
+      "$587$",
+      "$376$",
+      "$315$",
+      "$518$"
     ],
     "answerIndex": 0,
     "statement": "A digital clock shows $4{:}56$. How many minutes pass until it next shows a time whose digits are consecutive and increasing?",
@@ -5660,11 +5673,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "-1",
-      "-2",
-      "-5",
-      "3",
-      "4"
+      "$-1$",
+      "$-2$",
+      "$-5$",
+      "$3$",
+      "$4$"
     ],
     "answerIndex": 2,
     "statement": "The line $y=x$ is translated $3$ units to the right and $2$ units down. What is the $y$-intercept of the resulting line?",
@@ -5687,11 +5700,11 @@
     "difficulty": 9,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "8",
-      "9",
-      "6",
-      "4"
+      "$3$",
+      "$8$",
+      "$9$",
+      "$6$",
+      "$4$"
     ],
     "answerIndex": 3,
     "statement": "The integers $1$ through $9$ are placed once each in a $3\\times 3$ grid. The products of the rows are $56,135,48$, and the products of the columns are $21,108,160$. Which number is in the square marked $N$?",
@@ -5719,11 +5732,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "6",
-      "1",
-      "2",
-      "3",
-      "4"
+      "$6$",
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
     ],
     "answerIndex": 2,
     "statement": "Points $P$ and $Q$ are distinct points in the plane. In how many different locations can a point $R$ be placed so that\n$$PQ=QR=PR?$$",
@@ -5745,11 +5758,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{4}{5}\\)",
-      "\\(\\frac{\\sqrt{2}}{2}\\)",
-      "\\(\\frac{\\sqrt{5}}{3}\\)",
-      "\\(\\frac{1}{3}\\)",
-      "\\(\\frac{\\sqrt{3}}{2}\\)"
+      "$\\frac{4}{5}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{5}}{3}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{\\sqrt{3}}{2}$"
     ],
     "answerIndex": 0,
     "statement": "Square $PQRS$ has side length $2$. Points $M$ and $N$ are the midpoints of $SR$ and $RQ$, respectively. Find\n$$\\cos(\\angle MPN).$$",
@@ -5778,11 +5791,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "37",
-      "25",
-      "58",
-      "29",
-      "13"
+      "$37$",
+      "$25$",
+      "$58$",
+      "$29$",
+      "$13$"
     ],
     "answerIndex": 4,
     "statement": "Suppose positive integers $m$ and $n$ satisfy\n$$\\sqrt{7+\\sqrt{48}}=m+\\sqrt{n}.$$ \nFind $m^2+n^2$.",
@@ -5804,11 +5817,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "16 m",
-      "64 m",
-      "48 m",
-      "82 m",
-      "84 m"
+      "$16\\text{ m}$",
+      "$64\\text{ m}$",
+      "$48\\text{ m}$",
+      "$82\\text{ m}$",
+      "$84\\text{ m}$"
     ],
     "answerIndex": 3,
     "statement": "Radford and Peter run at constant speeds. Radford starts $30$ m ahead of Peter. After $3$ minutes, Peter is $18$ m ahead of Radford. Peter finishes exactly $7$ minutes after the race begins. How far from the finish line is Radford when Peter finishes?",
@@ -5830,11 +5843,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "1009",
-      "1010",
-      "1514",
-      "1515",
-      "1513"
+      "$1009$",
+      "$1010$",
+      "$1514$",
+      "$1515$",
+      "$1513$"
     ],
     "answerIndex": 2,
     "statement": "For how many positive integers $x$ is\n$$(x-2)(x-4)(x-6)\\cdots(x-2016)(x-2018)\\le 0?$$",
@@ -5856,11 +5869,11 @@
     "difficulty": 13,
     "type": "multiple_choice",
     "choices": [
-      "-x - 2y + 2023",
-      "3x - 2y + 2017",
-      "y",
-      "x + y - 1",
-      "2x + y + 2015"
+      "$-x - 2y + 2023$",
+      "$3x - 2y + 2017$",
+      "$y$",
+      "$x + y - 1$",
+      "$2x + y + 2015$"
     ],
     "answerIndex": 4,
     "statement": "A sequence has first term $a_1=x$ and third term $a_3=y$. For every $n\\ge 1$,\n$$a_{n+1}=a_n+a_{n+2}-1.$$ \nFind the sum of the first $2018$ terms.",
@@ -5883,11 +5896,11 @@
     "difficulty": 14,
     "type": "multiple_choice",
     "choices": [
-      "4",
-      "3",
-      "\\(\\frac{15}{4}\\)",
-      "6",
-      "\\(\\frac{21}{4}\\)"
+      "$4$",
+      "$3$",
+      "$\\frac{15}{4}$",
+      "$6$",
+      "$\\frac{21}{4}$"
     ],
     "answerIndex": 3,
     "statement": "Suppose $k>0$ and the line\n$$y=3kx+4k^2$$\nintersects the parabola\n$$y=x^2$$\nat points $P$ and $Q$, as shown. If $O$ is the origin and the area of $\\triangle OPQ$ is $80$, find the slope of the line.",
@@ -5916,11 +5929,11 @@
     "difficulty": 11,
     "type": "multiple_choice",
     "choices": [
-      "-12",
-      "-24",
-      "-14",
-      "-8",
-      "-16"
+      "$-12$",
+      "$-24$",
+      "$-14$",
+      "$-8$",
+      "$-16$"
     ],
     "answerIndex": 1,
     "statement": "Suppose integers $a,b,c$ satisfy\n$$(x-a)(x-6)+3=(x+b)(x+c)$$\nfor all real $x$. Find the sum of all possible values of $b$.",
@@ -5942,11 +5955,11 @@
     "difficulty": 15,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{97}{243}\\)",
-      "\\(\\frac{89}{243}\\)",
-      "\\(\\frac{93}{243}\\)",
-      "\\(\\frac{95}{243}\\)",
-      "\\(\\frac{91}{243}\\)"
+      "$\\frac{97}{243}$",
+      "$\\frac{89}{243}$",
+      "$\\frac{93}{243}$",
+      "$\\frac{95}{243}$",
+      "$\\frac{91}{243}$"
     ],
     "answerIndex": 1,
     "statement": "Wayne distributes $4$ pucks among $3$ green buckets, $3$ pucks among $3$ red buckets, $2$ pucks among $3$ blue buckets, and $1$ puck among $3$ yellow buckets, with each puck independently equally likely to go into any bucket of its colour. What is the probability that some green bucket contains more pucks than each of the other $11$ buckets?",
@@ -5968,11 +5981,11 @@
     "difficulty": 18,
     "type": "multiple_choice",
     "choices": [
-      "10",
-      "9",
-      "11",
-      "12",
-      "13"
+      "$10$",
+      "$9$",
+      "$11$",
+      "$12$",
+      "$13$"
     ],
     "answerIndex": 2,
     "statement": "For a positive digit $D$ and positive integer $k$, let $D_{(k)}$ denote the positive integer with exactly $k$ digits, each equal to $D$. For example, $2_{(1)}=2$ and $3_{(4)}=3333$. There are $N$ quadruples $(P,Q,R,k)$ with positive digits $P,Q,R$ and positive integer $k\\le 2018$ such that\n$$P_{(2k)}-Q_{(k)}=\\left(R_{(k)}\\right)^2.$$ \nFind the sum of the digits of $N$.",
@@ -5992,11 +6005,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "20170",
-      "0",
-      "4034",
-      "24"
+      "$2$",
+      "$20170$",
+      "$0$",
+      "$4034$",
+      "$24$"
     ],
     "answerIndex": 3,
     "statement": "Evaluate $6 \\times 2017 - 2017 \\times 4$.",
@@ -6017,11 +6030,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "53",
-      "51",
-      "47",
-      "45",
-      "49"
+      "$53$",
+      "$51$",
+      "$47$",
+      "$45$",
+      "$49$"
     ],
     "answerIndex": 4,
     "statement": "In the given $8 \\times 8$ grid, how many $1 \\times 1$ squares are shaded?",
@@ -6049,11 +6062,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "24",
-      "72",
-      "36",
-      "48",
-      "32"
+      "$24$",
+      "$72$",
+      "$36$",
+      "$48$",
+      "$32$"
     ],
     "answerIndex": 2,
     "statement": "Three different numbers from the list $2,3,4,6$ have sum $11$. What is their product?",
@@ -6075,11 +6088,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "12",
-      "20",
-      "2.5",
-      "5",
-      "15"
+      "$12$",
+      "$20$",
+      "$2.5$",
+      "$5$",
+      "$15$"
     ],
     "answerIndex": 0,
     "statement": "A graph shows that a $300$ L tank drains completely in $25$ hours at a constant rate. At what rate is the water leaving the tank, in litres per hour?",
@@ -6108,11 +6121,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "$\\text{A}$",
+      "$\\text{B}$",
+      "$\\text{C}$",
+      "$\\text{D}$",
+      "$\\text{E}$"
     ],
     "answerIndex": 3,
     "statement": "Which sketch could represent the graph of\n$$y=-2x^2+4?$$",
@@ -6141,11 +6154,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "5",
-      "15",
-      "3",
-      "25",
-      "1"
+      "$5$",
+      "$15$",
+      "$3$",
+      "$25$",
+      "$1$"
     ],
     "answerIndex": 1,
     "statement": "The numbers are $5$, $x$, and $9$. The averages of the three pairs are $7$, $10$, and $12$. Find $x$.",
@@ -6166,11 +6179,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "3",
-      "-1",
-      "1",
-      "2",
-      "-2"
+      "$3$",
+      "$-1$",
+      "$1$",
+      "$2$",
+      "$-2$"
     ],
     "answerIndex": 4,
     "statement": "If $x=1$ is a solution of\n$$x^2+ax+1=0,$$\nfind $a$.",
@@ -6190,13 +6203,13 @@
     ],
     "difficulty": 3,
     "type": "multiple_choice",
-    "choices": [
-      "6",
-      "1/2",
-      "1/3",
-      "2",
-      "3"
-    ],
+      "choices": [
+        "$6$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$2$",
+        "$3$"
+      ],
     "answerIndex": 4,
     "statement": "If\n$$\\frac{1}{2n}+\\frac{1}{4n}=\\frac{3}{12},$$\nfind $n$.",
     "solution": "Combine the fractions on the left:\n$$\\frac{1}{2n}+\\frac{1}{4n}=\\frac{3}{4n}.$$ \nSo\n$$\\frac{3}{4n}=\\frac{3}{12}.$$ \nCancelling $3$ gives\n$$\\frac{1}{4n}=\\frac{1}{12},$$\nso $4n=12$ and $n=3$.",
@@ -6216,11 +6229,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "1 p.m. Tuesday",
-      "9 p.m. Monday",
-      "2 p.m. Tuesday",
-      "1 p.m. Monday",
-      "9 p.m. Wednesday"
+      "$\\text{1 p.m. Tuesday}$",
+      "$\\text{9 p.m. Monday}$",
+      "$\\text{2 p.m. Tuesday}$",
+      "$\\text{1 p.m. Monday}$",
+      "$\\text{9 p.m. Wednesday}$"
     ],
     "answerIndex": 3,
     "statement": "Kamile turned her computer off at $5$ p.m. Friday, at which point it had been on for exactly $100$ hours. At what time did she turn it on?",
@@ -6242,11 +6255,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "26",
-      "50",
-      "28",
-      "27",
-      "94"
+      "$26$",
+      "$50$",
+      "$28$",
+      "$27$",
+      "$94$"
     ],
     "answerIndex": 3,
     "statement": "Four different positive integers have sum $100$. The largest of them is $n$. What is the smallest possible value of $n$?",
@@ -6268,11 +6281,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "18",
-      "64",
-      "24",
-      "20",
-      "40"
+      "$18$",
+      "$64$",
+      "$24$",
+      "$20$",
+      "$40$"
     ],
     "answerIndex": 3,
     "statement": "In a class, $20\\%$ of the students brought an apple, $35\\%$ brought a banana, and the remaining $9$ students brought an orange. How many students are in the class?",
@@ -6294,11 +6307,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "81",
-      "82",
-      "83",
-      "92",
-      "93"
+      "$81$",
+      "$82$",
+      "$83$",
+      "$92$",
+      "$93$"
     ],
     "answerIndex": 1,
     "statement": "Digits are placed in the two boxes of $2\\square\\square$ to form a three-digit integer. In how many ways can this be done so that the integer is greater than $217$?",
@@ -6321,11 +6334,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "12",
-      "32",
-      "24",
-      "16"
+      "$8$",
+      "$12$",
+      "$32$",
+      "$24$",
+      "$16$"
     ],
     "answerIndex": 4,
     "statement": "Point $P$ lies on the $y$-axis, point $Q=(4,0)$, and segment $PQ$ passes through $R=(2,4)$. Find the area of $\\triangle OPQ$, where $O=(0,0)$.",
@@ -6353,13 +6366,13 @@
     ],
     "difficulty": 4,
     "type": "multiple_choice",
-    "choices": [
-      "5",
-      "10/9",
-      "9",
-      "9 1/8",
-      "1/2"
-    ],
+      "choices": [
+        "$5$",
+        "$\\frac{10}{9}$",
+        "$9$",
+        "$9\\frac{1}{8}$",
+        "$\\frac{1}{2}$"
+      ],
     "answerIndex": 0,
     "statement": "Evaluate\n$$\\left(1+\\frac12\\right)\\left(1+\\frac13\\right)\\left(1+\\frac14\\right)\\left(1+\\frac15\\right)\\left(1+\\frac16\\right)\\left(1+\\frac17\\right)\\left(1+\\frac18\\right)\\left(1+\\frac19\\right).$$",
     "solution": "Each factor is\n$$1+\\frac1n=\\frac{n+1}{n}.$$ \nSo the product is\n$$\\frac32\\cdot\\frac43\\cdot\\frac54\\cdot\\frac65\\cdot\\frac76\\cdot\\frac87\\cdot\\frac98\\cdot\\frac{10}{9}=\\frac{10}{2}=5.$$",
@@ -6380,11 +6393,11 @@
     "difficulty": 6,
     "type": "multiple_choice",
     "choices": [
-      "75 degrees",
-      "65 degrees",
-      "60 degrees",
-      "80 degrees",
-      "85 degrees"
+      "$75^\\circ$",
+      "$65^\\circ$",
+      "$60^\\circ$",
+      "$80^\\circ$",
+      "$85^\\circ$"
     ],
     "answerIndex": 0,
     "statement": "In the diagram, $M$ is the midpoint of $YZ$, $\\angle XMZ=30^\\circ$, and $\\angle XYZ=15^\\circ$. Find $\\angle XZY$.",
@@ -6413,11 +6426,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "16",
-      "18",
-      "20",
-      "30"
+      "$8$",
+      "$16$",
+      "$18$",
+      "$20$",
+      "$30$"
     ],
     "answerIndex": 1,
     "statement": "If $x+2y=30$, find the value of\n$$\\frac{x}{5}+\\frac{2y}{3}+\\frac{2y}{5}+\\frac{x}{3}.$$",
@@ -6439,11 +6452,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "31 cm",
-      "25 cm",
-      "15 cm",
-      "22 cm",
-      "16 cm"
+      "$31\\text{ cm}$",
+      "$25\\text{ cm}$",
+      "$15\\text{ cm}$",
+      "$22\\text{ cm}$",
+      "$16\\text{ cm}$"
     ],
     "answerIndex": 0,
     "statement": "A solid rectangular prism is built from $144$ identical cubes of edge length $1$ cm. The perimeter of its base is $20$ cm. What is the sum of all possible heights of the prism?",
@@ -6464,13 +6477,13 @@
     ],
     "difficulty": 8,
     "type": "multiple_choice",
-    "choices": [
-      "107/8",
-      "119/8",
-      "125/9",
-      "107/6",
-      "101/7"
-    ],
+      "choices": [
+        "$\\frac{107}{8}$",
+        "$\\frac{119}{8}$",
+        "$\\frac{125}{9}$",
+        "$\\frac{107}{6}$",
+        "$\\frac{101}{7}$"
+      ],
     "answerIndex": 1,
     "statement": "For positive real numbers $x$ and $y$, let $\\lfloor x \\rfloor$ denote the greatest integer less than or equal to $x$. If\n$$\\lfloor x \\rfloor x = 36 \\quad\\text{and}\\quad \\lfloor y \\rfloor y = 71,$$\nfind $x+y$.",
     "solution": "Since $\\lfloor x \\rfloor \\le x$, we have\n$$36=\\lfloor x \\rfloor x \\le x^2.$$ \nSo $x\\ge 6$. If $x=6$, then $\\lfloor x \\rfloor x=6\\cdot 6=36$, so $x=6$.\n\nNow let $n=\\lfloor y \\rfloor$. Then\n$$ny=71, \\qquad n\\le y<n+1.$$ \nSo\n$$n\\le \\frac{71}{n}<n+1.$$ \nTrying nearby integers, $n=8$ works because\n$$8\\le \\frac{71}{8}<9.$$ \nThus $y=\\frac{71}{8}$. Therefore\n$$x+y=6+\\frac{71}{8}=\\frac{48}{8}+\\frac{71}{8}=\\frac{119}{8}.$$",
@@ -6490,13 +6503,13 @@
     ],
     "difficulty": 7,
     "type": "multiple_choice",
-    "choices": [
-      "0",
-      "-144/55",
-      "-11/5",
-      "24/11",
-      "8"
-    ],
+      "choices": [
+        "$0$",
+        "$-\\frac{144}{55}$",
+        "$-\\frac{11}{5}$",
+        "$\\frac{24}{11}$",
+        "$8$"
+      ],
     "answerIndex": 1,
     "statement": "The intersection of the vertical line $x=a$ with the line\n$$3x+8y=24$$\nis equidistant from the coordinate axes. Find the sum of all possible values of $a$.",
     "solution": "A point equidistant from the coordinate axes has coordinates $(a,a)$ or $(a,-a)$.\n\nIf $(a,a)$ lies on the line, then\n$$3a+8a=24 \\Rightarrow 11a=24 \\Rightarrow a=\\frac{24}{11}.$$ \nIf $(a,-a)$ lies on the line, then\n$$3a-8a=24 \\Rightarrow -5a=24 \\Rightarrow a=-\\frac{24}{5}.$$ \nTheir sum is\n$$\\frac{24}{11}-\\frac{24}{5}=\\frac{120-264}{55}=-\\frac{144}{55}.$$",
@@ -6517,11 +6530,11 @@
     "difficulty": 9,
     "type": "multiple_choice",
     "choices": [
-      "209962",
-      "1954",
-      "209957",
-      "6598",
-      "1049760"
+      "$209962$",
+      "$1954$",
+      "$209957$",
+      "$6598$",
+      "$1049760$"
     ],
     "answerIndex": 2,
     "statement": "If $m$ and $n$ are positive integers with $n>1$ such that\n$$m^n=2^{25}\\times 3^{40},$$\nfind $m+n$.",
@@ -6543,7 +6556,7 @@
     "difficulty": 11,
     "type": "integer",
     "answer": "3",
-    "statement": "Each letter in the addition\n$$\\begin{array}{cccc}\nW & X & Y & Z \\\\\nW & X & Y & Z \\\\\n\\hline\nT & W & U & Y & V\n\\end{array}$$\nrepresents a different digit, with $T\\ne 0$ and $W\\ne 0$. How many different values of $U$ are possible?",
+    "statement": "Each letter in the addition\n$$\\begin{array}{cccc}\n&W & X & Y & Z \\\\\n&W & X & Y & Z \\\\\n\\hline\nT & W & U & Y & V\n\\end{array}$$\nrepresents a different digit, with $T\\ne 0$ and $W\\ne 0$. How many different values of $U$ are possible?",
     "solution": "Since adding two $4$-digit numbers gives a $5$-digit number, we must have $T=1$. Since $WXYZ+WXYZ$ begins with $TW\\cdots$, the thousands digit forces $W=9$. Then the tens digit must be $Y=0$, and checking the remaining carries gives exactly three possible values for $U$, namely $2,4,6$. So the answer is $3$.",
     "credit": "2017 Fermat Contest, CEMC, University of Waterloo"
   },
@@ -6646,11 +6659,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "8",
-      "9",
-      "6",
-      "18",
-      "15"
+      "$8$",
+      "$9$",
+      "$6$",
+      "$18$",
+      "$15$"
     ],
     "answerIndex": 3,
     "statement": "If $x=3$, $y=2x$, and $z=3y$, what is the value of $z$?",
@@ -6671,11 +6684,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "6",
-      "12",
-      "8",
-      "4",
-      "10"
+      "$6$",
+      "$12$",
+      "$8$",
+      "$4$",
+      "$10$"
     ],
     "answerIndex": 2,
     "statement": "A cube has $12$ edges. How many edges does a square-based pyramid have?",
@@ -6703,11 +6716,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "20",
-      "276",
-      "21",
-      "\\(\\frac{9}{4}\\)",
-      "\\(\\frac{17}{16}\\)"
+      "$20$",
+      "$276$",
+      "$21$",
+      "$\\frac{9}{4}$",
+      "$\\frac{17}{16}$"
     ],
     "answerIndex": 4,
     "statement": "Evaluate\n$$\\frac{20+16\\times 20}{20\\times 16}.$$",
@@ -6729,11 +6742,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "42",
-      "49",
-      "56",
-      "64",
-      "72"
+      "$42$",
+      "$49$",
+      "$56$",
+      "$64$",
+      "$72$"
     ],
     "answerIndex": 2,
     "statement": "An oblong number is the number of dots in a rectangular grid with one more row than column. The first four oblong numbers are $2,6,12,20$. What is the $7$th oblong number?",
@@ -6762,11 +6775,11 @@
     "difficulty": 3,
     "type": "multiple_choice",
     "choices": [
-      "(2,5)",
-      "(7,11)",
-      "(6,9)",
-      "(8,10)",
-      "(9,15)"
+      "$(2,5)$",
+      "$(7,11)$",
+      "$(6,9)$",
+      "$(8,10)$",
+      "$(9,15)$"
     ],
     "answerIndex": 1,
     "statement": "In the coordinate plane, point $Q(4,7)$ is the midpoint of segment $PR$, where $P(1,3)$. What are the coordinates of $R$?",
@@ -6794,11 +6807,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "15",
-      "28",
-      "60",
-      "80",
-      "100"
+      "$15$",
+      "$28$",
+      "$60$",
+      "$80$",
+      "$100$"
     ],
     "answerIndex": 3,
     "statement": "Carrie sends five text messages to her brother on each Saturday and each Sunday, and two text messages on each of the other days of the week. Over four full weeks, how many text messages does she send?",
@@ -6819,11 +6832,11 @@
     "difficulty": 1,
     "type": "multiple_choice",
     "choices": [
-      "-17",
-      "1",
-      "-12",
-      "0",
-      "-1"
+      "$-17$",
+      "$1$",
+      "$-12$",
+      "$0$",
+      "$-1$"
     ],
     "answerIndex": 0,
     "statement": "Evaluate\n$$(-2)^3-(-3)^2.$$",
@@ -6845,11 +6858,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "4",
-      "16",
-      "64",
-      "484",
-      "256"
+      "$4$",
+      "$16$",
+      "$64$",
+      "$484$",
+      "$256$"
     ],
     "answerIndex": 4,
     "statement": "If\n$$\\sqrt{25-\\sqrt{n}}=3,$$\nfind the value of $n$.",
@@ -6870,11 +6883,11 @@
     "difficulty": 2,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{3}{4}\\)",
-      "\\(\\frac{1}{3}\\)",
-      "4",
-      "3",
-      "9"
+      "$\\frac{3}{4}$",
+      "$\\frac{1}{3}$",
+      "$4$",
+      "$3$",
+      "$9$"
     ],
     "answerIndex": 3,
     "statement": "If $x\\%$ of $60$ is $12$, then what is $15\\%$ of $x$?",
@@ -6897,11 +6910,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "1:2",
-      "2:1",
-      "1:3",
-      "1:4",
-      "\\(\\sqrt{2}:2\\)"
+      "$1:2$",
+      "$2:1$",
+      "$1:3$",
+      "$1:4$",
+      "$\\sqrt{2}:2$"
     ],
     "answerIndex": 0,
     "statement": "Square $PQRS$ has side length $2$. Points $W$, $X$, $Y$, and $Z$ are the midpoints of the sides of $PQRS$. What is the ratio of the area of square $WXYZ$ to the area of square $PQRS$?",
@@ -6931,11 +6944,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "47",
-      "44",
-      "30",
-      "41",
-      "61"
+      "$47$",
+      "$44$",
+      "$30$",
+      "$41$",
+      "$61$"
     ],
     "answerIndex": 1,
     "statement": "In the diagram, $\\triangle PQR$ is right-angled at $P$ and $PR=12$. Point $S$ lies on $PQ$ with $SQ=11$ and $SR=13$. Find the perimeter of $\\triangle QRS$.",
@@ -6964,11 +6977,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "2",
-      "5",
-      "1",
-      "3",
-      "4"
+      "$2$",
+      "$5$",
+      "$1$",
+      "$3$",
+      "$4$"
     ],
     "answerIndex": 3,
     "statement": "How many positive divisors of $128$ are perfect squares larger than $1$?",
@@ -6990,11 +7003,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{3}{4}\\)",
-      "\\(-\\frac{4}{3}\\)",
-      "\\(\\frac{3}{2}\\)",
-      "\\(-\\frac{3}{2}\\)",
-      "\\(-\\frac{3}{4}\\)"
+      "$\\frac{3}{4}$",
+      "$-\\frac{4}{3}$",
+      "$\\frac{3}{2}$",
+      "$-\\frac{3}{2}$",
+      "$-\\frac{3}{4}$"
     ],
     "answerIndex": 4,
     "statement": "The numbers $4x$, $2x-3$, and $4x-3$ are three consecutive terms of an arithmetic sequence. Find $x$.",
@@ -7016,11 +7029,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "10",
-      "8",
-      "7",
-      "9",
-      "6"
+      "$10$",
+      "$8$",
+      "$7$",
+      "$9$",
+      "$6$"
     ],
     "answerIndex": 1,
     "statement": "Suppose $a$ and $b$ are integers with $4<a<b<22$. If the average of $4,a,b,22$ is $13$, how many possible pairs $(a,b)$ are there?",
@@ -7041,11 +7054,11 @@
     "difficulty": 4,
     "type": "multiple_choice",
     "choices": [
-      "8 km/h",
-      "9 km/h",
-      "10 km/h",
-      "6 km/h",
-      "12 km/h"
+      "$8\\text{ km/h}$",
+      "$9\\text{ km/h}$",
+      "$10\\text{ km/h}$",
+      "$6\\text{ km/h}$",
+      "$12\\text{ km/h}$"
     ],
     "answerIndex": 1,
     "statement": "Hicham runs $16$ km in $1.5$ hours. He runs the first $10$ km at an average speed of $12$ km/h. What is his average speed for the last $6$ km?",
@@ -7067,11 +7080,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "216",
-      "-6",
-      "-30",
-      "30",
-      "-540"
+      "$216$",
+      "$-6$",
+      "$-30$",
+      "$30$",
+      "$-540$"
     ],
     "answerIndex": 2,
     "statement": "If $x=18$ is one solution of the equation\n$$x^2+12x+c=0,$$\nwhat is the other solution?",
@@ -7093,11 +7106,11 @@
     "difficulty": 5,
     "type": "multiple_choice",
     "choices": [
-      "54",
-      "55",
-      "56",
-      "57",
-      "58"
+      "$54$",
+      "$55$",
+      "$56$",
+      "$57$",
+      "$58$"
     ],
     "answerIndex": 2,
     "statement": "A total of $n$ points are equally spaced around a circle and labeled $1$ to $n$ in order. If the points labeled $7$ and $35$ are diametrically opposite, what is $n$?",
@@ -7119,11 +7132,11 @@
     "difficulty": 7,
     "type": "multiple_choice",
     "choices": [
-      "210",
-      "-150",
-      "14160",
-      "-14310",
-      "-50"
+      "$210$",
+      "$-150$",
+      "$14160$",
+      "$-14310$",
+      "$-50$"
     ],
     "answerIndex": 1,
     "statement": "Suppose $x$ and $y$ satisfy\n$$\\frac{x-y}{x+y}=9 \\quad\\text{and}\\quad \\frac{xy}{x+y}=-60.$$ \nFind\n$$(x+y)+(x-y)+xy.$$",
@@ -7145,11 +7158,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "11",
-      "12",
-      "20",
-      "13",
-      "10"
+      "$11$",
+      "$12$",
+      "$20$",
+      "$13$",
+      "$10$"
     ],
     "answerIndex": 1,
     "statement": "There are $n$ students in a math club. Grouping them into $4$s leaves one incomplete group. Grouping them into $3$s gives exactly $3$ more complete groups than grouping into $4$s, again with one incomplete group. Grouping them into $2$s gives exactly $5$ more complete groups than grouping into $3$s, again with one incomplete group. Find the sum of the digits of $n^2-n$.",
@@ -7172,11 +7185,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "110 degrees",
-      "100 degrees",
-      "95 degrees",
-      "105 degrees",
-      "115 degrees"
+      "$110^\\circ$",
+      "$100^\\circ$",
+      "$95^\\circ$",
+      "$105^\\circ$",
+      "$115^\\circ$"
     ],
     "answerIndex": 0,
     "statement": "Rectangle $PQRS$ is folded along line $VW$ so that $\\angle VWQ=125^\\circ$. After unfolding, the reflected images of $R$ and $Q$ are $R'$ and $Q'$, and segment $R'V$ crosses $PW$ at $Y$. Find $\\angle PYV$.",
@@ -7205,11 +7218,11 @@
     "difficulty": 10,
     "type": "multiple_choice",
     "choices": [
-      "\\(\\frac{11}{40}\\)",
-      "\\(\\frac{3}{10}\\)",
-      "\\(\\frac{13}{40}\\)",
-      "\\(\\frac{7}{20}\\)",
-      "\\(\\frac{3}{8}\\)"
+      "$\\frac{11}{40}$",
+      "$\\frac{3}{10}$",
+      "$\\frac{13}{40}$",
+      "$\\frac{7}{20}$",
+      "$\\frac{3}{8}$"
     ],
     "answerIndex": 0,
     "statement": "Box $1$ contains one gold and one black marble. Box $2$ contains one gold and two black marbles. Box $3$ contains one gold and three black marbles. A marble is moved randomly from Box $1$ to Box $2$, then one is moved randomly from Box $2$ to Box $3$, and then one marble is chosen randomly from Box $3$. What is the probability that the final marble chosen from Box $3$ is gold?",
@@ -7231,11 +7244,11 @@
     "difficulty": 8,
     "type": "multiple_choice",
     "choices": [
-      "172",
-      "65",
-      "136",
-      "152",
-      "104"
+      "$172$",
+      "$65$",
+      "$136$",
+      "$152$",
+      "$104$"
     ],
     "answerIndex": 4,
     "statement": "If $x$ and $y$ are real numbers, find the minimum possible value of\n$$(x+3)^2+2(y-2)^2+4(x-7)^2+(y+4)^2.$$",
@@ -7258,11 +7271,11 @@
     "difficulty": 15,
     "type": "multiple_choice",
     "choices": [
-      "0.615 cm",
-      "0.620 cm",
-      "0.610 cm",
-      "0.605 cm",
-      "0.625 cm"
+      "$0.615\\text{ cm}$",
+      "$0.620\\text{ cm}$",
+      "$0.610\\text{ cm}$",
+      "$0.605\\text{ cm}$",
+      "$0.625\\text{ cm}$"
     ],
     "answerIndex": 3,
     "statement": "Seven tangent coins of three sizes are arranged as shown. Each coin except the centre one touches three other coins, and the centre coin touches all the others. The coins labeled $C_3$ have radius $3$ cm and those labeled $C_2$ have radius $2$ cm. Find the radius of the coin labeled $X$.",
@@ -7291,11 +7304,11 @@
     "difficulty": 14,
     "type": "multiple_choice",
     "choices": [
-      "999500000",
-      "999000000",
-      "999999000",
-      "998999500",
-      "998500500"
+      "$999500000$",
+      "$999000000$",
+      "$999999000$",
+      "$998999500$",
+      "$998500500$"
     ],
     "answerIndex": 2,
     "statement": "For any real number $x$, let $\\lfloor x\\rfloor$ be the greatest integer less than or equal to $x$. If $S$ is the sum of all integers $k$ with\n$$1\\le k\\le 999999$$\nfor which $k$ is divisible by $\\lfloor \\sqrt{k}\\rfloor$, find $S$.",
@@ -7318,15 +7331,673 @@
     "difficulty": 18,
     "type": "multiple_choice",
     "choices": [
-      "202",
-      "102",
-      "302",
-      "402",
-      "502"
+      "$202$",
+      "$102$",
+      "$302$",
+      "$402$",
+      "$502$"
     ],
     "answerIndex": 0,
     "statement": "Let\n$$A=\\{1,2,3,\\ldots,2045\\}.$$ \nA subset $S$ of $A$ is called triple-free if no element of $S$ is three times another element of $S$. The largest such subsets have exactly $1535$ elements. If there are $n$ triple-free subsets of $A$ with exactly $1535$ elements, what are the final three digits of $n$?",
     "solution": "Partition $A$ into disjoint chains of the form\n$$P_b=\\{b,3b,9b,\\ldots\\},$$\nwhere $b$ is not divisible by $3$. A subset is triple-free exactly when it contains no two consecutive elements from any chain.\n\nTo maximize size, each chain contributes the largest possible number of nonconsecutive elements. For chains of lengths $7,6,5,4,3,2,1$, the numbers of maximum-size selections are respectively\n$$1,4,1,3,1,2,1.$$ \nIn 2016 the numbers of such chains are\n$$2,4,11,33,102,302,910.$$ \nTherefore,\n$$n=1^2\\cdot 4^4\\cdot 1^{11}\\cdot 3^{33}\\cdot 1^{102}\\cdot 2^{302}\\cdot 1^{910}=4^4\\cdot 3^{33}\\cdot 2^{302}.$$ \nThe official simplification gives that the final three digits of this number are\n$$202.$$",
     "credit": "2016 Fermat Contest, CEMC, University of Waterloo"
-  }
+  },
+  {
+  "id": "cayley-2026-01",
+  "title": "Cayley 2026 Problem 1",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 1,
+  "field": "Algebra",
+  "topics": [
+    "Expressions and Simplification",
+    "Arithmetic"
+  ],
+  "difficulty": 1,
+  "type": "multiple_choice",
+  "choices": [
+    "$35$",
+    "$45$",
+    "$55$",
+    "$39$",
+    "$51$"
+  ],
+  "answerIndex": 1,
+  "statement": "Evaluate $13+15+17$.",
+  "solution": "Add directly: $13+15=28$, and $28+17=45$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-02",
+  "title": "Cayley 2026 Problem 2",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 2,
+  "field": "Algebra",
+  "topics": [
+    "Exponents",
+    "Powers of Ten"
+  ],
+  "difficulty": 1,
+  "type": "multiple_choice",
+  "choices": [
+    "$10^3$",
+    "$10^4$",
+    "$10^5$",
+    "$10^6$",
+    "$10^7$"
+  ],
+  "answerIndex": 3,
+  "statement": "One million is equal to which power of $10$?",
+  "solution": "One million is $1{,}000{,}000$, which is $10^6$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-03",
+  "title": "Cayley 2026 Problem 3",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 3,
+  "field": "Algebra",
+  "topics": [
+    "Linear Equations",
+    "Expressions and Simplification"
+  ],
+  "difficulty": 1,
+  "type": "multiple_choice",
+  "choices": [
+    "$27$",
+    "$30$",
+    "$33$",
+    "$36$",
+    "$39$"
+  ],
+  "answerIndex": 4,
+  "statement": "If $4x+1=13$, what is the value of $12x+3$?",
+  "solution": "From $4x+1=13$, we get $4x=12$ and $x=3$. Then $12x+3=12(3)+3=39$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-04",
+  "title": "Cayley 2026 Problem 4",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 4,
+  "field": "Algebra",
+  "topics": [
+    "Number Lines",
+    "Expressions and Simplification",
+    "Ratios and Proportions"
+  ],
+  "difficulty": 2,
+  "type": "multiple_choice",
+  "choices": [
+    "$4.0$",
+    "$3.5$",
+    "$3.0$",
+    "$4.5$",
+    "$5.0$"
+  ],
+  "answerIndex": 1,
+  "statement": "On the number line from $0$ to $6$, the interval is divided into $12$ equal parts. Points $M$ and $N$ are marked as shown. Find $N-M$.",
+  "statementImages": [
+    {
+      "src": "images/problems/cayley-2026-04.png",
+      "alt": "Add the official number-line diagram with points M and N for Cayley 2026 Problem 4.",
+      "caption": "Diagram from the official contest."
+    }
+  ],
+  "solution": "Each small interval has length $\\frac{6}{12}=0.5$. Point $M$ is $2$ intervals to the right of $0$, so $M=1.0$. Point $N$ is $3$ intervals to the left of $6$, so $N=4.5$. Thus $N-M=4.5-1.0=3.5$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-05",
+  "title": "Cayley 2026 Problem 5",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 5,
+  "field": "Combinatorics",
+  "topics": [
+    "Patterns",
+    "Casework",
+    "Parity"
+  ],
+  "difficulty": 2,
+  "type": "multiple_choice",
+  "choices": [
+    "$5$",
+    "$6$",
+    "$3$",
+    "$7$",
+    "$4$"
+  ],
+  "answerIndex": 4,
+  "statement": "Carley ran on May $18$, did not run on May $19$, and kept alternating between running and not running. Between May $18$ and May $25$ inclusive, on how many days did she run?",
+  "solution": "She ran on May $18,20,22,$ and $24$, so she ran on $4$ days.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-06",
+  "title": "Cayley 2026 Problem 6",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 6,
+  "field": "Algebra",
+  "topics": [
+    "Percentages",
+    "Ratios and Proportions",
+    "Expressions and Simplification"
+  ],
+  "difficulty": 2,
+  "type": "multiple_choice",
+  "choices": [
+    "$10$",
+    "$20$",
+    "$25$",
+    "$30$",
+    "$40$"
+  ],
+  "answerIndex": 1,
+  "statement": "Jin has $40$ cupcakes. Exactly $75\\%$ are chocolate and the rest are vanilla. How many more vanilla cupcakes must Jin bake so that half are vanilla and half are chocolate?",
+  "solution": "Jin has $30$ chocolate and $10$ vanilla cupcakes. To make the counts equal, Jin must add $20$ more vanilla cupcakes.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-07",
+  "title": "Cayley 2026 Problem 7",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 7,
+  "field": "Number Theory",
+  "topics": [
+    "Remainders",
+    "Modular Arithmetic",
+    "Divisibility"
+  ],
+  "difficulty": 3,
+  "type": "multiple_choice",
+  "choices": [
+    "$9$",
+    "$11$",
+    "$10$",
+    "$13$",
+    "$8$"
+  ],
+  "answerIndex": 3,
+  "statement": "Which of the following integers leaves the same remainder when divided by $3$ as when divided by $4$?",
+  "solution": "Check the remainders. Only $13$ gives remainder $1$ when divided by $3$ and also remainder $1$ when divided by $4$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-08",
+  "title": "Cayley 2026 Problem 8",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 8,
+  "field": "Geometry",
+  "topics": [
+    "Coordinate Geometry",
+    "Transformations"
+  ],
+  "difficulty": 2,
+  "type": "multiple_choice",
+  "choices": [
+    "$(-1,-4)$",
+    "$(5,8)$",
+    "$(-4,-1)$",
+    "$(-1,8)$",
+    "$(5,-4)$"
+  ],
+  "answerIndex": 0,
+  "statement": "Point $Q(4,2)$ is shifted left $5$ units and then down $6$ units to point $R$. What are the coordinates of $R$?",
+  "solution": "Shifting left $5$ gives $(-1,2)$. Shifting down $6$ then gives $(-1,-4)$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-09",
+  "title": "Cayley 2026 Problem 9",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 9,
+  "field": "Geometry",
+  "topics": [
+    "Three Dimensional Geometry",
+    "Prime Factorization",
+    "Area",
+    "Volume"
+  ],
+  "difficulty": 6,
+  "type": "multiple_choice",
+  "choices": [
+    "$60$",
+    "$30$",
+    "$3600$",
+    "$120$",
+    "$90$"
+  ],
+  "answerIndex": 0,
+  "statement": "A rectangular prism has integer edge lengths. Three face areas are $12\\text{ cm}^2$, $20\\text{ cm}^2$, and $15\\text{ cm}^2$. Find its volume.",
+  "solution": "If the side lengths are $\\ell,w,h$, then the face areas are $\\ell w$, $\\ell h$, and $wh$. Their product is\n$$(\\ell w)(\\ell h)(wh)=(\\ell wh)^2=12\\cdot 20\\cdot 15=3600.$$ \nSo the volume is\n$$\\ell wh=\\sqrt{3600}=60.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-10",
+  "title": "Cayley 2026 Problem 10",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 10,
+  "field": "Algebra",
+  "topics": [
+    "Averages",
+    "Patterns",
+    "Linear Equations"
+  ],
+  "difficulty": 4,
+  "type": "multiple_choice",
+  "choices": [
+    "$11$",
+    "$8$",
+    "$10$",
+    "$9$",
+    "$6$"
+  ],
+  "answerIndex": 0,
+  "statement": "Three cards lie face up showing $3$, $7$, and $8$. Jen flips the $3$, then the $7$, then the $8$. Each time, the mean of the three visible numbers increases by $1$. What number is on the back of the card showing $8$?",
+  "statementImages": [
+    {
+      "src": "images/problems/cayley-2026-10.png",
+      "alt": "Add the official three Nelson cards showing 3, 7, and 8 for Cayley 2026 Problem 10.",
+      "caption": "Diagram from the official contest."
+    }
+  ],
+  "solution": "If the mean increases by $1$, then the total increases by $3$. So each flipped card reveals a number that is $3$ larger than the number that was showing. Thus the back of the $8$ is $8+3=11$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-11",
+  "title": "Cayley 2026 Problem 11",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 11,
+  "field": "Geometry",
+  "topics": [
+    "Angle Chasing",
+    "Triangle Geometry",
+    "Quadrilaterals"
+  ],
+  "difficulty": 5,
+  "type": "multiple_choice",
+  "choices": [
+    "$42$",
+    "$46$",
+    "$48$",
+    "$52$",
+    "$58$"
+  ],
+  "answerIndex": 2,
+  "statement": "In the diagram, $ABCD$ is a rectangle and $\\triangle ACE$ is right-angled at $C$. If $\\angle BAC=42^\\circ$, what is $\\angle DCE$?",
+  "statementImages": [
+    {
+      "src": "images/problems/cayley-2026-11.png",
+      "alt": "Add the official rectangle-and-triangle diagram for Cayley 2026 Problem 11.",
+      "caption": "Diagram from the official contest."
+    }
+  ],
+  "solution": "Since $ABCD$ is a rectangle, $\\angle ABC=90^\\circ$. So in $\\triangle ABC$,\n$$\\angle ACB=180^\\circ-90^\\circ-42^\\circ=48^\\circ.$$ \nBecause $\\angle BCD=90^\\circ$, we get\n$$\\angle ACD=90^\\circ-48^\\circ=42^\\circ.$$ \nAlso $\\angle ACE=90^\\circ$, so\n$$\\angle DCE=90^\\circ-42^\\circ=48^\\circ.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-12",
+  "title": "Cayley 2026 Problem 12",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 12,
+  "field": "Algebra",
+  "topics": [
+    "Ratios and Proportions",
+    "Linear Equations",
+    "Expressions and Simplification"
+  ],
+  "difficulty": 3,
+  "type": "multiple_choice",
+  "choices": [
+    "$18$",
+    "$15$",
+    "$27$",
+    "$21$",
+    "$24$"
+  ],
+  "answerIndex": 0,
+  "statement": "Max was given $b$ books. In March he read one third of them. In April he read $5$ more books. He then had $7$ books left unread. What is $b$?",
+  "solution": "After March, Max had $\\frac{2}{3}b$ books left. After April, he had\n$$\\frac{2}{3}b-5=7.$$ \nSo\n$$\\frac{2}{3}b=12,$$\nand therefore\n$$b=18.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-13",
+  "title": "Cayley 2026 Problem 13",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 13,
+  "field": "Geometry",
+  "topics": [
+    "Circle Geometry",
+    "Area",
+    "Expressions and Simplification"
+  ],
+  "difficulty": 2,
+  "type": "multiple_choice",
+  "choices": [
+    "$60$",
+    "$30\\pi$",
+    "$15K\\pi$",
+    "$30K$",
+    "$60\\pi$"
+  ],
+  "answerIndex": 4,
+  "statement": "A circle of radius $K$ has area $15\\pi$. What is the area of a circle of radius $2K$?",
+  "solution": "If the radius doubles, the area is multiplied by $4$. So the new area is\n$$4\\cdot 15\\pi=60\\pi.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-14",
+  "title": "Cayley 2026 Problem 14",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 14,
+  "field": "Algebra",
+  "topics": [
+    "Ratios and Proportions",
+    "Linear Equations",
+    "Rational Expressions"
+  ],
+  "difficulty": 2,
+  "type": "multiple_choice",
+  "choices": [
+    "$\\frac{4}{5}$",
+    "$\\frac{4}{3}$",
+    "$-\\frac{2}{5}$",
+    "$\\frac{8}{5}$",
+    "$2$"
+  ],
+  "answerIndex": 0,
+  "statement": "If\n$$\\frac{2m-n}{n}=\\frac{3}{5},$$\nfind the value of\n$$\\frac{m}{n}.$$",
+  "solution": "From\n$$\\frac{2m-n}{n}=\\frac{3}{5},$$\nwe get\n$$5(2m-n)=3n.$$ \nSo $10m-5n=3n$, hence $10m=8n$, and therefore\n$$\\frac{m}{n}=\\frac{8}{10}=\\frac{4}{5}.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-15",
+  "title": "Cayley 2026 Problem 15",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 15,
+  "field": "Geometry",
+  "topics": [
+    "Circle Geometry",
+    "Length Chasing",
+    "Linear Equations"
+  ],
+  "difficulty": 5,
+  "type": "multiple_choice",
+  "choices": [
+    "$3$",
+    "$8$",
+    "$10$",
+    "$11$",
+    "$12$"
+  ],
+  "answerIndex": 3,
+  "statement": "Three identical semicircles have diameters $PQ$, $RS$, and $TU$ placed along the same line, as shown. If $PR=SU=8$ and $QT=5$, what is the length of $PQ$?",
+  "statementImages": [
+    {
+      "src": "images/problems/cayley-2026-15.png",
+      "alt": "Add the official three-semicircle diagram with diameters PQ, RS, and TU for Cayley 2026 Problem 15.",
+      "caption": "Diagram from the official contest."
+    }
+  ],
+  "solution": "Let the common diameter be $x$. Then\n$$PU=PQ+QT+TU=x+5+x=2x+5.$$ \nAlso,\n$$PU=PR+RS+SU=8+x+8=x+16.$$ \nSo\n$$2x+5=x+16,$$\nwhich gives $x=11$. Thus $PQ=11$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-16",
+  "title": "Cayley 2026 Problem 16",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 16,
+  "field": "Geometry",
+  "topics": [
+    "Coordinate Geometry",
+    "Pythagorean Theorem",
+    "Distance"
+  ],
+  "difficulty": 6,
+  "type": "multiple_choice",
+  "choices": [
+    "$16$",
+    "$20$",
+    "$28$",
+    "$14$",
+    "$18$"
+  ],
+  "answerIndex": 0,
+  "statement": "Two boats leave the same dock. The Luna travels northwest at $8$ km/h for $1$ hour and stops. The Tuna travels northeast at $8$ km/h for $1$ hour, then due north for $90$ minutes at $8$ km/h and stops. To the nearest kilometre, what is the distance between the boats?",
+  "solution": "After the first hour, each boat is $8$ km from the dock. The Tuna then goes $12$ km farther north. If $L$ and $T$ are the stopping points, then\n$$LT^2=8^2+8^2+12^2=64+64+144=272.$$ \nSo\n$$LT=\\sqrt{272}\\approx 16.49,$$\nwhich rounds to $16$ km.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-17",
+  "title": "Cayley 2026 Problem 17",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 17,
+  "field": "Number Theory",
+  "topics": [
+    "Digit Properties",
+    "Divisibility",
+    "Modular Arithmetic"
+  ],
+  "difficulty": 4,
+  "type": "multiple_choice",
+  "choices": [
+    "$21$",
+    "$24$",
+    "$35$",
+    "$54$",
+    "$89$"
+  ],
+  "answerIndex": 3,
+  "statement": "Let $s$ be the sum of the digits of a positive two-digit integer $n$. Which of the following can be a value of $n-s$?",
+  "solution": "If $n$ has tens digit $x$ and ones digit $y$, then\n$$n=10x+y,\\qquad s=x+y.$$ \nSo\n$$n-s=(10x+y)-(x+y)=9x,$$\nwhich must be a positive multiple of $9$. Among the choices, only $54$ works.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-18",
+  "title": "Cayley 2026 Problem 18",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 18,
+  "field": "Combinatorics",
+  "topics": [
+    "Lattice Paths",
+    "Coordinate Geometry",
+    "Parity",
+    "Casework"
+  ],
+  "difficulty": 8,
+  "type": "multiple_choice",
+  "choices": [
+    "$85$",
+    "$25$",
+    "$37$",
+    "$49$",
+    "$57$"
+  ],
+  "answerIndex": 3,
+  "statement": "A grasshopper starts at $(0,0)$ and makes exactly $6$ unit jumps, each either up, down, left, or right. It can end at $N$ different points. What is $N$?",
+  "solution": "After $6$ moves, the parity of $x+y$ must be even. Also the distance condition gives $|x|+|y|\\le 6$. The possible values of $|x|+|y|$ are $0,2,4,6$.\n\nFor $|x|+|y|=6$, there are $24$ points. For $|x|+|y|=4$, there are $16$ points. For $|x|+|y|=2$, there are $8$ points. For $|x|+|y|=0$, there is $1$ point. So\n$$N=24+16+8+1=49.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-19",
+  "title": "Cayley 2026 Problem 19",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 19,
+  "field": "Combinatorics",
+  "topics": [
+    "Basic Counting",
+    "Casework",
+    "Averages"
+  ],
+  "difficulty": 9,
+  "type": "multiple_choice",
+  "choices": [
+    "$10$",
+    "$26$",
+    "$30$",
+    "$33$",
+    "$36$"
+  ],
+  "answerIndex": 4,
+  "statement": "Amira rolls a standard six-sided die exactly six times. The mean of her first three rolls is $3$. Her last three rolls are $a,b,c$. How many ordered triples $(a,b,c)$ make the mean of all six rolls an integer?",
+  "solution": "The first three rolls sum to $9$. So the total mean is an integer exactly when\n$$\\frac{9+a+b+c}{6}$$\nis an integer, that is, when $9+a+b+c$ is a multiple of $6$. Since $a,b,c\\in\\{1,2,3,4,5,6\\}$, the possible values of $a+b+c$ are from $3$ to $18$. We need\n$$a+b+c=3,9,15.$$ \nThese contribute $1$, $25$, and $10$ ordered triples respectively, for a total of\n$$1+25+10=36.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-20",
+  "title": "Cayley 2026 Problem 20",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 20,
+  "field": "Combinatorics",
+  "topics": [
+    "Base Representation",
+    "Lexicographic Order",
+    "Strings"
+  ],
+  "difficulty": 8,
+  "type": "multiple_choice",
+  "choices": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+  ],
+  "answerIndex": 2,
+  "statement": "All $5$-letter strings using only $A,B,C,D,E$ are listed in alphabetical order from $AAAAA$ to $EEEEE$. How many times does the letter $B$ occur in the $2026$th string?",
+  "solution": "There are $5^5=3125$ strings. Each first letter appears in blocks of $5^4=625$, so the $2026$th string starts with $D$. Within the $D$-block, each second letter appears in blocks of $5^3=125$, so it starts with $DB$. Within the $DB$-block, each third letter appears in blocks of $25$, and the $2026$th string is the first string after $DBAEE$, namely $DBBAA$. That string contains exactly $2$ B's.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-21",
+  "title": "Cayley 2026 Problem 21",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 21,
+  "field": "Geometry",
+  "topics": [
+    "Circle Geometry",
+    "Area",
+    "Squares",
+    "Symmetry"
+  ],
+  "difficulty": 10,
+  "type": "integer",
+  "answer": "55",
+  "statement": "Four circles of radius $8$ are arranged so that each touches two others, and their centres are the vertices of a square. To the nearest integer, find the area of the shaded region enclosed by the four circles.",
+  "statementImages": [
+    {
+      "src": "images/problems/cayley-2026-21.png",
+      "alt": "Add the official four-circle shaded-center diagram for Cayley 2026 Problem 21.",
+      "caption": "Diagram from the official contest."
+    }
+  ],
+  "solution": "The centres form a $16\\times 16$ square. Inside that square, the circles cut out four quarter-circles of radius $8$, whose total area equals one full circle of radius $8$. So the shaded area is\n$$16\\cdot 16-\\pi(8)^2=256-64\\pi\\approx 54.94.$$ \nRounded to the nearest integer, this is $55$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-22",
+  "title": "Cayley 2026 Problem 22",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 22,
+  "field": "Combinatorics",
+  "topics": [
+    "Sets",
+    "Inclusion-Exclusion",
+    "Casework"
+  ],
+  "difficulty": 9,
+  "type": "integer",
+  "answer": "12",
+  "statement": "Of $100$ movie-watchers, $47$ bought popcorn, more than $40$ bought a drink, $x$ bought both, and $2x$ bought neither. If $x>0$, what is the largest possible value of $x$?",
+  "solution": "Let $y$ be the number who bought a drink. Then the four disjoint groups are:\n- popcorn only: $47-x$\n- drink only: $y-x$\n- both: $x$\n- neither: $2x$\n\nTheir total is\n$$100=(47-x)+(y-x)+x+2x=47+y+x.$$ \nSo\n$$y=53-x.$$ \nSince more than $40$ bought a drink, we need\n$$53-x>40,$$\nso\n$$x<13.$$ \nThus the largest possible integer value is $12$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-23",
+  "title": "Cayley 2026 Problem 23",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 23,
+  "field": "Algebra",
+  "topics": [
+    "Systems of Equations",
+    "Casework",
+    "Linear Equations"
+  ],
+  "difficulty": 12,
+  "type": "integer",
+  "answer": "66",
+  "statement": "For distinct positive integers $p,q,r$, the four numbers\n$$2r-21,\\quad 3r-1,\\quad r+12,\\quad 3r-17$$\nare equal to $p,2p,q,2q$ in some order. Find the sum of all possible values of $r$.",
+  "solution": "Since the four given numbers are exactly $p,2p,q,2q$ in some order, their sum is\n$$3p+3q.$$ \nSo\n$$(2r-21)+(3r-1)+(r+12)+(3r-17)=3p+3q,$$\nwhich simplifies to\n$$9r-27=3p+3q,$$\nhence\n$$p+q=3r-9.$$ \nNow try the possible assignments of two of the four expressions to be $p$ and $q$. The only valid cases are:\n$$p=3r-17,\\quad 2p=2r-21 \\Rightarrow 6r-34=2r-21 \\Rightarrow r=41,$$\nand\n$$p=2r-21,\\quad 2p=3r-17 \\Rightarrow 4r-42=3r-17 \\Rightarrow r=25.$$ \nThus the required sum is\n$$41+25=66.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-24",
+  "title": "Cayley 2026 Problem 24",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 24,
+  "field": "Geometry",
+  "topics": [
+    "Three Dimensional Geometry",
+    "Volume",
+    "Similar Triangles",
+    "Midpoints"
+  ],
+  "difficulty": 15,
+  "type": "integer",
+  "answer": "53",
+  "statement": "In the shown $6\\times 6\\times 6$ cube, points $C$ and $F$ are vertices, and $A,B,D,E$ are midpoints of their edges. Lines $AF$ and $EC$ meet at $G$, and $BF$ and $DC$ meet at $H$. Pieces are sliced off by the planes $ABF$ and $EGHD$, and the same process is repeated on each of the four vertical edges. If the volume of the remaining solid is $V$, what are the rightmost two digits of $V$?",
+  "statementImages": [
+    {
+      "src": "images/problems/cayley-2026-24.png",
+      "alt": "Add the official 6 by 6 by 6 cube slicing diagram for Cayley 2026 Problem 24.",
+      "caption": "Diagram from the official contest."
+    }
+  ],
+  "solution": "Let\n$$W=[EFDC],$$\nthe volume of pyramid $EFDC$. Since $EF=DF=3$ and $CF=6$,\n$$W=\\frac{1}{3}\\cdot \\frac{1}{2}\\cdot 3\\cdot 3\\cdot 6=9.$$ \nThe inner pyramid removed from this pyramid is similar in each linear dimension by a factor of $\\frac12$, so its volume is $\\frac18W$. Thus the remaining sliced piece from one corner has volume\n$$W-\\frac18W=\\frac78W.$$ \nTwo such pieces are removed from each vertical-edge section, so each section loses\n$$2\\cdot \\frac78W=\\frac74W.$$ \nThere are $4$ congruent sections, so the total removed volume is\n$$4\\cdot \\frac74W=7W=63.$$ \nThe whole cube has volume\n$$6^3=216,$$\nso the remaining volume is\n$$216-63=153.$$ \nThe rightmost two digits are $53$.",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+},
+{
+  "id": "cayley-2026-25",
+  "title": "Cayley 2026 Problem 25",
+  "contest": "Cayley",
+  "year": 2026,
+  "problemNumber": 25,
+  "field": "Algebra",
+  "topics": [
+    "Series and Summation",
+    "Linear Equations",
+    "Divisor Counting",
+    "Casework"
+  ],
+  "difficulty": 13,
+  "type": "integer",
+  "answer": "65",
+  "statement": "The integers from $1$ to $2k$ are written in order. Arthur erases $k$ consecutive integers. The remaining integers have sum $819$. Find the sum of all possible values of $k$.",
+  "solution": "The sum of $1+2+\\cdots+2k$ is\n$$\\frac{2k(2k+1)}{2}=2k^2+k.$$ \nSuppose the erased block starts at $m$ and has length $k$. Then its sum is\n$$m+(m+1)+\\cdots+(m+k-1)=km+\\frac{(k-1)k}{2}.$$ \nSo the remaining sum is\n$$2k^2+k-\\left(km+\\frac{(k-1)k}{2}\\right)=819.$$ \nThis simplifies to\n$$k(3k-2m+3)=1638.$$ \nChecking divisor pairs of $1638$ that can occur in this form gives exactly two valid values:\n$$k=26\\quad\\text{and}\\quad k=39.$$ \nTheir sum is\n$$26+39=65.$$",
+  "credit": "2026 Cayley Contest, CEMC, University of Waterloo"
+}
 ]

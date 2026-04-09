@@ -110,7 +110,7 @@ function buildSearchParams(searchState) {
 function getBackToResultsHref(searchState) {
     let params = buildSearchParams(searchState);
     let query = params.toString();
-    return query ? `index.html?${query}` : "index.html";
+    return query ? `search.html?${query}` : "search.html";
 }
 
 function getProblemHref(problemId, searchState) {

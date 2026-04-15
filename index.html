@@ -10,7 +10,7 @@
       var query = window.location.search || "";
 
       if (/(?:^|[?&])(title|contest|topic|min|max|page)=/.test(query)) {
-        window.location.replace("search.html" + query + window.location.hash);
+        window.location.replace("/search" + query + window.location.hash);
         return;
       }
 
@@ -22,19 +22,19 @@
       }
     })();
   </script>
-  <link rel="icon" type="image/png" href="images/website/icon.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/images/website/icon.png">
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body class="home-page">
   <header class="home-header">
     <div class="home-shell home-header-inner">
-      <a class="site-logo-link" href="index.html" aria-label="Contest Nexus home">
-        <img class="site-logo site-logo-home" src="images/website/logo.png" alt="Contest Nexus">
+      <a class="site-logo-link" href="/" aria-label="Contest Nexus home">
+        <img class="site-logo site-logo-home" src="/images/website/logo.png" alt="Contest Nexus">
       </a>
 
       <div class="home-header-actions">
-        <a class="home-nav-btn" href="search.html">Problem Search</a>
+        <a class="home-nav-btn" href="/search">Problem Search</a>
       </div>
     </div>
   </header>
@@ -50,7 +50,7 @@
         </p>
 
         <div class="home-primary-actions">
-          <a class="home-action-btn home-action-btn-primary" href="search.html">Open Problem Search</a>
+          <a class="home-action-btn home-action-btn-primary" href="/search">Open Problem Search</a>
         </div>
       </div>
 
@@ -74,31 +74,31 @@
       </div>
 
       <div class="home-link-grid">
-        <a class="home-link-card" href="search.html">
+        <a class="home-link-card" href="/search">
           <span class="home-link-label">Main page</span>
           <strong>Problem Search</strong>
           <p>Open the full search interface with title, contest, topic, and difficulty filters.</p>
         </a>
 
-        <a class="home-link-card" href="search.html?contest=Fermat">
+        <a class="home-link-card" href="/search?contest=Fermat">
           <span class="home-link-label">Contest shortcut</span>
           <strong>Fermat Archive</strong>
           <p>Jump directly to Fermat problems and start browsing from there.</p>
         </a>
 
-        <a class="home-link-card" href="search.html?topic=All%20Geometry">
+        <a class="home-link-card" href="/search?topic=All%20Geometry">
           <span class="home-link-label">Topic shortcut</span>
           <strong>All Geometry</strong>
           <p>Start with the field-wide geometry filter and refine it from the search page.</p>
         </a>
 
-        <a class="home-link-card" href="search.html?min=1&max=15">
+        <a class="home-link-card" href="/search?min=1&max=15">
           <span class="home-link-label">Difficulty shortcut</span>
           <strong>Easier Practice</strong>
           <p>Go straight to the easier end of the archive for warmups and routine contest problems.</p>
         </a>
 
-        <a class="home-link-card" href="search.html?min=31&max=60">
+        <a class="home-link-card" href="/search?min=31&max=60">
           <span class="home-link-label">Difficulty shortcut</span>
           <strong>Harder Practice</strong>
           <p>Filter for very hard contest and olympiad-style problems in one click.</p>
@@ -122,7 +122,7 @@
           </p>
         </div>
 
-        <a class="home-action-btn home-action-btn-primary" href="search.html">Go to Search</a>
+        <a class="home-action-btn home-action-btn-primary" href="/search">Go to Search</a>
       </div>
     </section>
   </main>
@@ -144,7 +144,7 @@
     </span>
   </button>
 
-  <script src="theme.js"></script>
+  <script src="/theme.js"></script>
 </body>
 
 </html>

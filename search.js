@@ -1,25 +1,10 @@
 window.SearchUtils = (() => {
-  const contestAliases = {
-    hmmt: "hmmt",
-    "harvard-mit math tournament": "hmmt",
-    "harvard mit math tournament": "hmmt",
-    pumac: "pumac",
-    "princeton university mathematics competition": "pumac",
-    smt: "smt",
-    "stanford math tournament": "smt",
-    ctmc: "ctmc",
-    "canadian team mathematics contest": "ctmc",
-    fermat: "fermat",
-    "waterloo fermat": "fermat"
-  };
-
   function normalize(value) {
     return String(value || "").trim().toLowerCase();
   }
 
   function normalizeContest(value) {
-    let normalizedValue = normalize(value);
-    return contestAliases[normalizedValue] || normalizedValue;
+    return normalize(value);
   }
 
   function buildTermCatalog(topicsData) {

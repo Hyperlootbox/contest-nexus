@@ -3,6 +3,8 @@ const problemDetail = document.getElementById("problemDetail");
 const backLink = document.querySelector(".back-link");
 const PAGE_SIZE = 25;
 const PROBLEM_TRANSITION_MS = 240;
+const SEARCH_ROUTE = "/search";
+const PROBLEM_ROUTE_PREFIX = "/problems/";
 
 let siteDataPromise = null;
 let problemExitTimeoutId = null;
@@ -54,8 +56,21 @@ function getUrlParams() {
     return new URLSearchParams(window.location.search);
 }
 
+function getProblemIdFromUrl(url) {
+    let segments = String(url.pathname || "")
+        .replace(/\/+$/, "")
+        .split("/")
+        .filter(Boolean);
+
+    if (segments[0] === "problems" && segments[1]) {
+        return decodeURIComponent(segments.slice(1).join("/"));
+    }
+
+    return url.searchParams.get("id");
+}
+
 function getProblemIdFromLocation() {
-    return getUrlParams().get("id");
+    return getProblemIdFromUrl(new URL(window.location.href));
 }
 
 function getSearchStateFromParams(params) {
@@ -110,13 +125,14 @@ function buildSearchParams(searchState) {
 function getBackToResultsHref(searchState) {
     let params = buildSearchParams(searchState);
     let query = params.toString();
-    return query ? `search.html?${query}` : "search.html";
+    return query ? `${SEARCH_ROUTE}?${query}` : SEARCH_ROUTE;
 }
 
 function getProblemHref(problemId, searchState) {
     let params = buildSearchParams(searchState);
-    params.set("id", problemId);
-    return `problem.html?${params.toString()}`;
+    let encodedProblemId = encodeURIComponent(problemId);
+    let query = params.toString();
+    return query ? `${PROBLEM_ROUTE_PREFIX}${encodedProblemId}?${query}` : `${PROBLEM_ROUTE_PREFIX}${encodedProblemId}`;
 }
 
 function getAnswerText(problem) {
@@ -127,6 +143,11 @@ function getAnswerText(problem) {
     ) {
         let letter = String.fromCharCode(65 + problem.answerIndex);
         let answerChoice = problem.choices[problem.answerIndex];
+
+        if (Array.isArray(problem.choiceImages) && problem.choiceImages[problem.answerIndex]) {
+            return letter;
+        }
+
         return `${letter}. ${answerChoice}`;
     }
 
@@ -141,6 +162,45 @@ function renderMessage(message) {
     problemDetail.innerHTML = `
     <div class="empty-state">${escapeHtml(message)}</div>
   `;
+}
+
+function renderChoiceList(problem) {
+    if (problem.type !== "multiple_choice" || !Array.isArray(problem.choices)) {
+        return "";
+    }
+
+    let hasChoiceImages =
+        Array.isArray(problem.choiceImages) &&
+        problem.choiceImages.length === problem.choices.length;
+
+    if (hasChoiceImages) {
+        return `
+      <ol class="choice-list choice-list-images" type="A">
+        ${problem.choices
+            .map((choice, index) => {
+                let choiceImage = problem.choiceImages[index];
+                let imageAlt = choiceImage.alt || choice || `Choice ${String.fromCharCode(65 + index)}`;
+                return `
+          <li>
+            <img
+              class="choice-image"
+              src="${escapeHtml(buildRenderedImageSrc(choiceImage.src))}"
+              alt="${escapeHtml(imageAlt)}"
+              loading="lazy"
+            />
+          </li>
+        `;
+            })
+            .join("")}
+      </ol>
+    `;
+    }
+
+    return `
+      <ol class="choice-list" type="A">
+        ${problem.choices.map(choice => `<li>${escapeHtml(choice)}</li>`).join("")}
+      </ol>
+    `;
 }
 
 function clearProblemDetailAnimation() {
@@ -198,13 +258,7 @@ function renderProblem(problem, navigation, searchState) {
         .map(topic => `<span class="tag">${escapeHtml(topic)}</span>`)
         .join("");
 
-    let choicesHtml = problem.type === "multiple_choice" && Array.isArray(problem.choices)
-        ? `
-      <ol class="choice-list" type="A">
-        ${problem.choices.map(choice => `<li>${escapeHtml(choice)}</li>`).join("")}
-      </ol>
-    `
-        : "";
+    let choicesHtml = renderChoiceList(problem);
     let statementImagesHtml = renderProblemImages(problem.statementImages || problem.statementImage);
     let problemBodyClass = statementImagesHtml
         ? "problem-detail-body has-images"
@@ -304,16 +358,16 @@ async function getSiteData() {
     if (!siteDataPromise) {
         siteDataPromise = (async () => {
             let [problemsResponse, topicsResponse] = await Promise.all([
-                fetch("data/problems.json"),
-                fetch("data/topics.json")
+                fetch("/data/problems.json"),
+                fetch("/data/topics.json")
             ]);
 
             if (!problemsResponse.ok) {
-                throw new Error("Could not load data/problems.json");
+                throw new Error(`Could not load /data/problems.json (HTTP ${problemsResponse.status}).`);
             }
 
             if (!topicsResponse.ok) {
-                throw new Error("Could not load data/topics.json");
+                throw new Error(`Could not load /data/topics.json (HTTP ${topicsResponse.status}).`);
             }
 
             let problems = await problemsResponse.json();
@@ -434,7 +488,7 @@ async function showProblem(problemId, searchState, options = {}) {
     } catch (error) {
         console.error(error);
         clearProblemDetailAnimation();
-        renderMessage("Could not load the problem.");
+        renderMessage(`Could not load the problem. ${error && error.message ? error.message : ""}`.trim());
         document.title = "Problem | Contest Nexus";
     }
 }
@@ -453,7 +507,7 @@ function handleProblemNavigationClick(event) {
     event.preventDefault();
 
     let targetUrl = new URL(navLink.href, window.location.href);
-    let targetProblemId = targetUrl.searchParams.get("id");
+    let targetProblemId = getProblemIdFromUrl(targetUrl);
     let targetSearchState = getSearchStateFromParams(targetUrl.searchParams);
     let direction = navLink.textContent.includes("Next") ? "forward" : "backward";
 
@@ -493,6 +547,25 @@ function normalizeImageEntries(rawValue) {
         .filter(item => item && item.src);
 }
 
+function buildRenderedImageSrc(src) {
+    let normalizedSrc = String(src || "").trim();
+
+    if (!normalizedSrc || /^(data:|blob:)/i.test(normalizedSrc)) {
+        return normalizedSrc;
+    }
+
+    // Prevent stale local diagram caches after manual image edits.
+    if (/^(images\/|\.\/images\/|\/images\/)/i.test(normalizedSrc)) {
+        let rootRelativeSrc = normalizedSrc
+            .replace(/^\.\//, "")
+            .replace(/^\/?/, "/");
+        let separator = rootRelativeSrc.includes("?") ? "&" : "?";
+        return `${rootRelativeSrc}${separator}v=${Date.now()}`;
+    }
+
+    return normalizedSrc;
+}
+
 function renderProblemImages(rawValue) {
     let images = normalizeImageEntries(rawValue);
 
@@ -506,7 +579,7 @@ function renderProblemImages(rawValue) {
         <figure class="problem-figure">
           <img
             class="problem-image"
-            src="${escapeHtml(image.src)}"
+            src="${escapeHtml(buildRenderedImageSrc(image.src))}"
             alt="${escapeHtml(image.alt)}"
             loading="lazy"
           >

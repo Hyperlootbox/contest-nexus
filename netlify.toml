@@ -1,0 +1,17 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/search"
+  to = "/search.html"
+  status = 200
+
+[[redirects]]
+  from = "/search/"
+  to = "/search.html"
+  status = 200
+
+[[redirects]]
+  from = "/problems/*"
+  to = "/problem.html"
+  status = 200

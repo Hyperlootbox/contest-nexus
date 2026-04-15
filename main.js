@@ -1,4 +1,6 @@
 const SearchUtils = window.SearchUtils;
+const SEARCH_ROUTE = "/search";
+const PROBLEM_ROUTE_PREFIX = "/problems/";
 
 const contestList = [
   "AMC 8",
@@ -42,29 +44,6 @@ const contestList = [
   "APMO",
   "ISL",
   "Putnam"
-];
-
-const contestAliasGroups = [
-  {
-    label: "HMMT",
-    aliases: ["HMMT", "Harvard-MIT Math Tournament", "Harvard MIT Math Tournament"]
-  },
-  {
-    label: "PUMaC",
-    aliases: ["PUMaC", "Princeton University Mathematics Competition"]
-  },
-  {
-    label: "SMT",
-    aliases: ["SMT", "Stanford Math Tournament"]
-  },
-  {
-    label: "CTMC",
-    aliases: ["CTMC", "Canadian Team Mathematics Contest"]
-  },
-  {
-    label: "Fermat",
-    aliases: ["Fermat", "Waterloo Fermat"]
-  }
 ];
 
 let problems = [];
@@ -125,17 +104,6 @@ const difficultyMaxInput = document.getElementById("difficultyMax");
 const difficultyRangeText = document.getElementById("difficultyRangeText");
 const dualRangeFill = document.getElementById("dualRangeFill");
 
-const contestAliasLookup = contestAliasGroups.reduce((lookup, group) => {
-  let normalizedKey = SearchUtils.normalizeContest(group.label);
-
-  lookup.set(normalizedKey, {
-    label: group.label,
-    searchTerms: group.aliases.map(alias => SearchUtils.normalize(alias))
-  });
-
-  return lookup;
-}, new Map());
-
 function escapeHtml(value) {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -164,17 +132,12 @@ function getContestCatalogEntry(value) {
   if (!label) return null;
 
   let normalizedKey = SearchUtils.normalizeContest(label);
-  let aliasEntry = contestAliasLookup.get(normalizedKey);
-  let displayLabel = aliasEntry ? aliasEntry.label : label;
-  let searchTerms = aliasEntry
-    ? aliasEntry.searchTerms
-    : [SearchUtils.normalize(displayLabel)];
 
   return {
-    label: displayLabel,
-    labelLower: SearchUtils.normalize(displayLabel),
+    label,
+    labelLower: SearchUtils.normalize(label),
     normalizedKey,
-    searchTerms
+    searchTerms: [SearchUtils.normalize(label)]
   };
 }
 
@@ -346,8 +309,124 @@ function moveContestSuggestion(step) {
   renderContestSuggestions();
 }
 
+function cleanExpressionSpacing(value) {
+  return value
+    .replace(/\s{2,}/g, " ")
+    .replace(/\(\s+/g, "(")
+    .replace(/\s+\)/g, ")")
+    .trim();
+}
+
+function setTopicInputValue(newValue, caretPosition) {
+  let safeCaret = Math.max(0, Math.min(caretPosition, newValue.length));
+
+  topicInput.value = newValue;
+  topicInput.focus();
+  topicInput.setSelectionRange(safeCaret, safeCaret);
+
+  refreshTopicExpression();
+}
+
+function getPreviousTopicOperand(caret) {
+  let value = topicInput.value;
+  let index = Math.min(Math.max(caret, 0), value.length);
+
+  while (index > 0 && /\s/.test(value[index - 1])) {
+    index -= 1;
+  }
+
+  if (index === 0) {
+    return null;
+  }
+
+  if (value[index - 1] === ")") {
+    return {
+      type: "closeParen",
+      start: index - 1,
+      end: index
+    };
+  }
+
+  for (let term of termCatalog.allTermsSorted) {
+    let start = index - term.label.length;
+
+    if (start < 0) {
+      continue;
+    }
+
+    if (
+      value.slice(start, index).toLowerCase() === term.labelLower &&
+      (start === 0 || /[\s(]/.test(value[start - 1])) &&
+      (index === value.length || /[\s)]/.test(value[index]))
+    ) {
+      return {
+        type: "term",
+        term,
+        start,
+        end: index
+      };
+    }
+  }
+
+  return null;
+}
+
+function removePreviousTopicTerm(previousOperand, caret) {
+  if (!previousOperand || previousOperand.type !== "term") {
+    return;
+  }
+
+  let value = topicInput.value;
+  let removeStart = previousOperand.start;
+  let removeEnd = previousOperand.end;
+
+  if (/^\s*$/.test(value.slice(previousOperand.end, caret))) {
+    removeEnd = caret;
+  }
+
+  let before = value.slice(0, removeStart);
+  let after = value.slice(removeEnd);
+  let previousOperatorMatch = before.match(/(?:^|\s)(AND|OR)\s*$/);
+
+  if (previousOperatorMatch) {
+    removeStart = before.length - previousOperatorMatch[0].length;
+  } else {
+    let nextOperatorMatch = after.match(/^\s*(AND|OR)\s*/);
+
+    if (nextOperatorMatch) {
+      removeEnd += nextOperatorMatch[0].length;
+    }
+  }
+
+  let newValue = cleanExpressionSpacing(value.slice(0, removeStart) + value.slice(removeEnd));
+  setTopicInputValue(newValue, removeStart);
+}
+
 function applySuggestion(term) {
+  let start = topicInput.selectionStart ?? 0;
+  let end = topicInput.selectionEnd ?? start;
   let caret = topicInput.selectionStart ?? topicInput.value.length;
+  let previousOperand = start === end ? getPreviousTopicOperand(caret) : null;
+
+  if (previousOperand && previousOperand.type === "term" && previousOperand.term.labelLower === term.labelLower) {
+    removePreviousTopicTerm(previousOperand, caret);
+    return;
+  }
+
+  if (previousOperand && (previousOperand.type === "term" || previousOperand.type === "closeParen")) {
+    let text = topicInput.value;
+    let before = text.slice(0, caret);
+    let after = text.slice(end);
+    let prefixSpace = before.length > 0 && !/[\s(]$/.test(before) ? " " : "";
+    let suffixSpace = after.length === 0 ? " " : (!/^[\s)]/.test(after) ? " " : "");
+    let insertion = `${prefixSpace}OR ${term.label}${suffixSpace}`;
+    let newValue = before + insertion + after;
+    let newCaret = (before + insertion).length;
+
+    setTopicInputValue(newValue, newCaret);
+    return;
+  }
+
   let fragment = SearchUtils.getCurrentFragmentData(topicInput.value, caret);
 
   let text = topicInput.value;
@@ -361,11 +440,7 @@ function applySuggestion(term) {
   let newValue = before + insertion + after;
   let newCaret = (before + insertion).length;
 
-  topicInput.value = newValue;
-  topicInput.focus();
-  topicInput.setSelectionRange(newCaret, newCaret);
-
-  refreshTopicExpression();
+  setTopicInputValue(newValue, newCaret);
 }
 
 function applySuggestionByIndex(index) {
@@ -381,11 +456,7 @@ function replaceSelection(textToInsert) {
   let newValue = value.slice(0, start) + textToInsert + value.slice(end);
   let newCaret = start + textToInsert.length;
 
-  topicInput.value = newValue;
-  topicInput.focus();
-  topicInput.setSelectionRange(newCaret, newCaret);
-
-  refreshTopicExpression();
+  setTopicInputValue(newValue, newCaret);
 }
 
 function insertBinaryOperator(operator) {
@@ -402,11 +473,7 @@ function insertBinaryOperator(operator) {
   let newValue = before + insertion + after;
   let newCaret = (before + insertion).length;
 
-  topicInput.value = newValue;
-  topicInput.focus();
-  topicInput.setSelectionRange(newCaret, newCaret);
-
-  refreshTopicExpression();
+  setTopicInputValue(newValue, newCaret);
 }
 
 function insertOpenParen() {
@@ -421,11 +488,7 @@ function insertOpenParen() {
   let newValue = before + insertion + after;
   let newCaret = (before + insertion).length;
 
-  topicInput.value = newValue;
-  topicInput.focus();
-  topicInput.setSelectionRange(newCaret, newCaret);
-
-  refreshTopicExpression();
+  setTopicInputValue(newValue, newCaret);
 }
 
 function insertCloseParen() {
@@ -438,10 +501,7 @@ function backspaceExpression() {
   let value = topicInput.value;
 
   if (start !== end) {
-    topicInput.value = value.slice(0, start) + value.slice(end);
-    topicInput.focus();
-    topicInput.setSelectionRange(start, start);
-    refreshTopicExpression();
+    setTopicInputValue(value.slice(0, start) + value.slice(end), start);
     return;
   }
 
@@ -449,16 +509,11 @@ function backspaceExpression() {
     return;
   }
 
-  topicInput.value = value.slice(0, start - 1) + value.slice(start);
-  topicInput.focus();
-  topicInput.setSelectionRange(start - 1, start - 1);
-  refreshTopicExpression();
+  setTopicInputValue(value.slice(0, start - 1) + value.slice(start), start - 1);
 }
 
 function clearExpression() {
-  topicInput.value = "";
-  topicInput.focus();
-  refreshTopicExpression();
+  setTopicInputValue("", 0);
 }
 
 function renderTopicState() {
@@ -957,16 +1012,16 @@ function refreshAll() {
 async function loadData() {
   try {
     let [problemsResponse, topicsResponse] = await Promise.all([
-      fetch("data/problems.json"),
-      fetch("data/topics.json")
+      fetch("/data/problems.json"),
+      fetch("/data/topics.json")
     ]);
 
     if (!problemsResponse.ok) {
-      throw new Error("Could not load data/problems.json");
+      throw new Error(`Could not load /data/problems.json (HTTP ${problemsResponse.status}).`);
     }
 
     if (!topicsResponse.ok) {
-      throw new Error("Could not load data/topics.json");
+      throw new Error(`Could not load /data/topics.json (HTTP ${topicsResponse.status}).`);
     }
 
     problems = await problemsResponse.json();
@@ -989,7 +1044,11 @@ async function loadData() {
     console.error(error);
     problemList.innerHTML = `
       <div class="empty-state">
-        Could not load the site data. Make sure you are running the site through Live Server or another local web server.
+        Could not load the site data.
+        <br>
+        ${escapeHtml(error && error.message ? error.message : "Unknown loading error.")}
+        <br>
+        If you recently changed the routing, try a hard refresh first.
       </div>
     `;
   }
@@ -1027,7 +1086,7 @@ function buildAppliedSearchParams() {
 function syncUrlToAppliedFilters() {
   let params = buildAppliedSearchParams();
   let query = params.toString();
-  let nextUrl = query ? `?${query}` : window.location.pathname;
+  let nextUrl = query ? `${SEARCH_ROUTE}?${query}` : SEARCH_ROUTE;
   history.replaceState(null, "", nextUrl);
 }
 
@@ -1061,8 +1120,9 @@ function readInitialFiltersFromUrl() {
 
 function getProblemHref(problemId) {
   let params = buildAppliedSearchParams();
-  params.set("id", problemId);
-  return `problem.html?${params.toString()}`;
+  let encodedProblemId = encodeURIComponent(problemId);
+  let query = params.toString();
+  return query ? `${PROBLEM_ROUTE_PREFIX}${encodedProblemId}?${query}` : `${PROBLEM_ROUTE_PREFIX}${encodedProblemId}`;
 }
 function renderMath(rootElement) {
   if (!rootElement || typeof window.renderMathInElement !== "function") {
